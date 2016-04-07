@@ -1,0 +1,19 @@
+<div class="container">
+
+  {{#animated-header}}
+    <div class="cbp-af-header">
+      <div class="cbp-af-inner">
+        <h1>Ebookchain</h1>
+        <nav>
+          {{#link-to 'home'}} Home {{/link-to}}
+          {{#link-to 'features'}} Features {{/link-to}}
+          {{#link-to 'get_started'}} Get started {{/link-to}}
+          <a href="http://blog.ebookchian.org">Blog</a>
+          <a href="http://forum.ebookchian.org">Forum</a>
+        </nav>
+      </div>
+    </div>
+  {{/animated-header}}
+
+  {{outlet}}
+</div>
