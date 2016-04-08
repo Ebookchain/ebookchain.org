@@ -1,7 +1,7 @@
 {
   "name": "ebookchain",
-  "version": "0.0.0",
-  "description": "Small description for ebookchain goes here",
+  "version": "0.0.1",
+  "description": "website ebookchain.org",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -16,7 +16,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "imfly",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "ember-cli-animated-header": "0.0.1",
+    "ember-cli-fullPagejs": "*",
     "ember-cli-scroller": "0.0.1"
   }
 }
