@@ -1,19 +1,39 @@
-<div class="container">
-  {{#animated-header}}
-    <div class="cbp-af-header">
-      <div class="cbp-af-inner">
-        <h1>Ebookchain</h1>
-        <nav>
-          {{#link-to 'home'}} Home {{/link-to}}
-          {{#link-to 'features'}} Features {{/link-to}}
-          {{#link-to 'get_started'}} Get started {{/link-to}}
-          <a href="http://blog.ebookchian.org">Blog</a>
-          <a href="http://forum.ebookchian.org">Forum</a>
-        </nav>
-      </div>
-    </div>
-  {{/animated-header}}
+<div class="container-fluid">
+    {{#animated-header}}
+    <nav class="navbar nav-pills cbp-af-header">
+        <div class="container-fluid cbp-af-inner">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a title="Ebookchain - Modern Decentralized Application" href="/">
+                    <div class="logo"></div>
+                </a>
+            </div>
 
-  {{outlet}}
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>{{#link-to 'home'}} {{t "header.nav.home"}} {{/link-to}}</li>
+                    <li><a href="http://blog.ebookchian.org">{{t "header.nav.blog"}}</a></li>
+                    <li><a href="http://forum.ebookchian.org">{{t "header.nav.forum"}}</a></li>
+                    <li>
+                        <a title="Sign in to manage your Ebookchain dapps" class="btn btn-default navbar-btn" href="http://bbs.ebookchain.com">{{t "header.nav.signIn"}}</a>
+                    </li>
+                    <li>{{language-select}}</li>
+                </ul>
+            </div>
+    
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    {{/animated-header}} 
+    
+    {{outlet}}
 
 </div>
