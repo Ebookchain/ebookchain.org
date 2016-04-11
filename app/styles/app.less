@@ -1,3 +1,5 @@
+@import 'page';
+@import 'icon';
 @fullpage-font-color: white;
 @color0: #333333; // Appears 2 times
 @height: 80px;
@@ -12,6 +14,7 @@
 .container-fluid {
     padding: 0;
 }
+
 
 /*fullpage*/
 
@@ -65,7 +68,6 @@
             color: @color0;
         }
     }
-
     .cbp-af-inner {
         margin: 0 auto;
         padding: 0 1.875em;
@@ -142,7 +144,7 @@
         min-height: 30px;
         padding: 20px;
         text-align: center;
-        background-color: rgba(142,152,160,.4);
+        background-color: rgba(142, 152, 160, .4);
         .number {
             display: inline-block;
             min-width: 25%;
@@ -156,25 +158,72 @@
             &:nth-child(2) {
                 border-style: none solid;
                 border-width: 1px;
-                border-color: rgba(255,255,255,.3);
+                border-color: rgba(255, 255, 255, .3);
             }
         }
     }
 }
 
 #section1 {
-    h1{
+    h1 {
         color: @fullpage-font-color;
     }
     p {
         color: @fullpage-font-color;
         margin-top: 40px;
     }
+    img {
+        max-height: 400px;
+    }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
-
+#section2 {
+    img {
+        max-height: 400px;
+    }
+    .icon {
+        font-size: 8em;
+        line-height: 100px;
+        margin: 10px 0;
+        color: #333;
+        font-style: normal;
+        -webkit-transition: font-size .25s ease-out 0s;
+        -moz-transition: font-size .25s ease-out 0s;
+        transition: font-size .25s ease-out 0s;
+    }
 }
+
+#opensource {
+    p.desc {
+        margin: 40px auto;
+    }
+    img {
+        max-width: 520px;
+    }
+    .build-with-box {
+        text-align: left;
+        img {
+            width: 100%;
+            padding-bottom: 17px;
+            margin-left: -6px;
+        }
+        p {
+            text-align: left;
+            font-size: 1.7rem;
+            padding: 2.4rem 0;
+            position: relative;
+            color: #5B5B5B;
+        }
+        a {
+            text-decoration: underline;
+            font-size: 1.7rem;
+            font-weight: normal;
+            color: #57A3E8;
+        }
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {}
 
 @media (max-width: 768px) {
     #file-size-chart {
@@ -194,7 +243,6 @@
             line-height: 28px;
         }
     }
-
     #footer {
         h2 {
             margin: 0;
