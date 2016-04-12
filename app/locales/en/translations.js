@@ -13,6 +13,9 @@ export default {
       home: "Home",
       blog: "Blog",
       forum: "Forum",
+      ebookcoin: "Ebookcoin",
+      faq: "FAQ",
+      document: "Document",
       signIn: "Sign in"
     }
   },
@@ -55,6 +58,16 @@ export default {
       developers: "Developers",
       technique: "Ebookchain is a lightning-fast Node.js application with an Ember.js admin client and Handlebars.js themes.<br>We like JavaScript.",
       "btcnodejs-book-link": "Check out the Ebookchain developer docs →"
+    },
+    partner: {
+        title: "Partnerships",
+        desc: "Join some of the world's most important organisations who powered by Ebookchain."
     }
+  },
+  
+  footer: {
+      ebookchain: "Ebookchain",
+      resources: "Resources",
+      social_media: "Social Media"
   }
 };

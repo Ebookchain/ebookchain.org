@@ -84,15 +84,13 @@
 
   <div class="section" id="partner">
     <div class="intro">
-      <h1>合作伙伴</h1>
-      <p>
-        Designed to fit to different screen sizes as well as tablet and mobile devices.
-      </p>
+      <h1>{{t "home.partner.title"}}</h1>
+      <p>{{t "home.partner.desc"}}</p>
     </div>
     <div class="row partners">
       {{#each model.partners as |p|}}
       <div class="col-md-3">
-        <a href="{{p.link}}"><img alt="{{p.description}}" src="{{p.logo}}"></a>
+        <a href="{{p.link}}"><img alt="{{p.description}}" title="{{p.description}}" src="{{p.logo}}" style="{{p.style}}"></a>
       </div>
       {{/each}}
     </div>

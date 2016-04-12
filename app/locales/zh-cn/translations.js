@@ -13,6 +13,9 @@ export default {
       home: "主页",
       blog: "博客",
       forum: "论坛",
+      ebookcoin: "博客币",
+      faq: "FAQ",
+      document: "文档",
       signIn: "登录"
     }
   },
@@ -55,6 +58,17 @@ export default {
       developers: "开发者",
       technique: "从技术角度说，书链是一个Node.js应用程序，客户端使用了Ember.js。<br>是的，我们喜欢JavaScript，在我们的世界里，一切都是js。",
       "btcnodejs-book-link": "我们提供了从入门到高阶，完整的开发文档，值得一看，请点这里 →"
+    },
+    partner: {
+        title: "合作伙伴",
+        desc: "我们为世界上著名的开源产品或社区提供支持，欢迎您访问或使用他们。"
     }
+  },
+  
+  footer: {
+      ebookchain: "书链",
+      resources: "资源",
+      social_media: "社交媒体"
   }
+  
 };
