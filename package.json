@@ -11,8 +11,7 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember test",
-    "deployb": "node_modules/.bin/gulp deploy",
-    "deploy": "ember github-pages:commit --message \"Deploy gh-pages from commit $(git rev-parse HEAD)\"; git push; git checkout -"
+    "deploy": "node_modules/.bin/gulp deploy"
   },
   "repository": "",
   "engines": {
