@@ -1,6 +1,6 @@
 {
   "name": "ebookchain",
-  "version": "0.1.0",
+  "version": "0.1.6",
   "description": "website ebookchain.org",
   "private": true,
   "directories": {
@@ -28,7 +28,8 @@
     "ember-cli-babel": "^5.1.6",
     "ember-cli-dependency-checker": "^1.2.0",
     "ember-cli-fullPagejs": "*",
-    "ember-cli-github-pages": "0.0.8",
+    "ember-cli-animated-header": "0.0.1",
+    "ember-cli-scroller": "0.0.1",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-htmlbars-inline-precompile": "^0.3.1",
     "ember-cli-inject-live-reload": "^1.4.0",
@@ -49,7 +50,5 @@
     "loader.js": "^4.0.1"
   },
   "dependencies": {
-    "ember-cli-animated-header": "0.0.1",
-    "ember-cli-scroller": "0.0.1"
   }
 }
