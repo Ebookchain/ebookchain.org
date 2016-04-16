@@ -9,7 +9,7 @@ module.exports = function(environment) {
     
     // ember-i18n
     i18n: {
-        defaultLocale: 'zh-cn'
+        defaultLocale: 'en'
     },
     
     EmberENV: {

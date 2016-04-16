@@ -33,14 +33,14 @@ export default {
 
     section1: {
       title: "Features",
-      desc: "书链，是世界上第一个人人可用的去中心化软件。无需去探究什么是加密货币等高深的理论，就可以轻松使用它。",
+      desc: "Ebookchain, the first usable decentralized application in the world, no need to understand some theory what the crypto-currency is.",
       slide1: {
         title: "Simple",
-        desc: "Easy to use. Configurable and customizable."
+        desc: "As long as you can type, using a similar WPS, word and other office software, you already have the skills to operate it."
       },
       slide2: {
         title: "Secure",
-        desc: ""
+        desc: "It is powered by crypto-currency ebookcoin(referred to EBC), based on a P2P network, with the characteristics of safety, reliable and fast like bitcoin."
       },
       slide3: {
         title: "Compatible",
@@ -48,7 +48,7 @@ export default {
       },
       slide4: {
         title: "Innovative",
-        desc: "Easy to use. Configurable and customizable."
+        desc: "It wrapped a crypto-currency, automatic adding copyright protection, providing seamless transactions and benefits to share. It drives and encourages everyone to  create and contribute wisdom. Strengthens sharing, and makes a number of people collaborate together!"
       }
 
     },
