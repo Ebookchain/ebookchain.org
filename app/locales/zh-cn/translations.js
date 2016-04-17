@@ -16,7 +16,8 @@ export default {
       ebookcoin: "博客币",
       faq: "FAQ",
       document: "文档",
-      signIn: "登录"
+      signIn: "登录",
+      resources: "资源"
     }
   },
 

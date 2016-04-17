@@ -1,53 +1,42 @@
-# Ebookchain
+# Ebookchain 书链
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ebookchain官方网站，可以作为产品类静态网站生成器使用，地址: http://ebookchain.org
 
-## Prerequisites
+![ebookchain](./doc/ebookchain.gif)
 
-You will need the following things properly installed on your computer.
+## 特点
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+主要实现了以下几个功能（**这些功能，是目前很多网站都在用的**）：
 
-## Installation
+* **导航动画**：网站的header根据垂直滚动条的位置，动态调整。这个我已经抽出来，做成了Ember的插件，源码地址：https://github.com/imfly/ember-cli-animated-header
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+* **滚动事件**：Ember没有对`Scroll`事件的处理。这里为Ember提供了响应`Scroll`事件的能力，抽出的插件在这里： https://github.com/imfly/ember-cli-scroller
 
-## Running / Development
+* **SVG动画**: 当打开网站的时候，会看到第一页`ebookchain`的动画效果;
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* **全页展示**: 滚动页面，页面会按照屏幕，逐个显示出来，自动适配屏幕大小。封装的插件在这里： https://github.com/imfly/ember-cli-fullPagejs
 
-### Code Generators
+* **多语言支持**: 提供了英文和中文两种语言，默认是英文，咱也走国际范;
+* **模块布局**: 产品特征、合作伙伴部分（甚至footer部分）直接用的json数据，完全按照mvc模式进行分离，添加、修改、删除、扩展都很方便，无需动刀页面;
+* **自动构建**: 一键导出静态页面，合并压缩js,css等文件;
+* **一键部署**
 
-Make use of the many generators for code, try `ember help generate` for more details
+多语言支持和扩展性，显然要比纯粹的静态页面好处多多。细心的小伙伴，一定会发现，类似的主页非常多，有的基本上完全一样（事实上是静态页面的拷贝）。用书链官网代码，建立类似的主页，扩展和修改就会轻松很多。
 
-### Running Tests
+## 开发
 
-* `ember test`
-* `ember test --server`
+请看文档： [doc/development](doc/development.md)
 
-### Building
+详细开发文档请看： [《Nodejs开发加密货币》客户端开发部分](http://bitcoin-on-nodejs.ebookchain.org/4-%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/4-Ember%E6%B7%B1%E2%80%9C%E5%9D%91%E2%80%9D%E6%B5%85%E5%87%BA.html)
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+## 协议
 
-### Deploying
+[MIT LICENSE 2016 @imfly](./LICENSE.md)
 
-Specify what it takes to deploy your app.
+## 社区
 
-## Further Reading / Useful Links
+开发者社区： <http://forum.ebookchain.org>
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+开发者博客： <http://blog.ebookchain.org>
 
+开发交流群： 185046161（QQ）

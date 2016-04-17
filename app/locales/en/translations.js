@@ -16,7 +16,8 @@ export default {
       ebookcoin: "Ebookcoin",
       faq: "FAQ",
       document: "Document",
-      signIn: "Sign in"
+      signIn: "Sign in",
+      resources: "Resource"
     }
   },
 
