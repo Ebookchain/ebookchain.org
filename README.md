@@ -27,7 +27,7 @@ Ebookchain官方网站，可以作为产品类静态网站生成器使用，地�
 
 请看文档： [doc/development](doc/development.md)
 
-详细开发文档请看： [《Nodejs开发加密货币》客户端开发部分](http://bitcoin-on-nodejs.ebookchain.org/4-%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/4-Ember%E6%B7%B1%E2%80%9C%E5%9D%91%E2%80%9D%E6%B5%85%E5%87%BA.html)
+详细开发文档请看： [《Nodejs开发加密货币》客户端开发部分](http://bitcoin-on-nodejs.ebookchain.org/5-%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/1-Ember%E6%B7%B1%E2%80%9C%E5%9D%91%E2%80%9D%E6%B5%85%E5%87%BA.html)
 
 ## 协议
 

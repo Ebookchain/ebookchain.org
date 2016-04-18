@@ -17,7 +17,7 @@ export default {
       faq: "FAQ",
       document: "Document",
       signIn: "Sign in",
-      resources: "Resource"
+      resources: "Resources"
     }
   },
 
