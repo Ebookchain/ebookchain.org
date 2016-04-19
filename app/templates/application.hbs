@@ -1,22 +1,19 @@
-<div class="container-fluid">
-    {{#animated-header}}
-    <nav class="navbar nav-pills cbp-af-header">
-        <div class="container-fluid cbp-af-inner">
-            <!-- Brand and toggle get grouped for better mobile display -->
+{{#animated-header}}
+    <nav id="menu" class="navbar navbar-inverse cbp-af-header" role="navigation">
+        <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a title="Ebookchain - Modern Decentralized Application" href="/">
+                <a title="Ebookchain" href="/">
                     <div class="logo"></div>
                 </a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
+            
+            <div class="navbar-collapse collapse in" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>{{#link-to 'home'}} {{t "header.nav.home"}} {{/link-to}}</li>
                     <li><a href="http://blog.ebookchain.org/2016/04/17/ebookchain-resources/">{{t "header.nav.resources"}}</a></li>
@@ -28,13 +25,10 @@
                     <li>{{language-select}}</li>
                 </ul>
             </div>
-
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
-    {{/animated-header}}
+{{/animated-header}}
 
+<div class="container-fluid">
     {{outlet}}
-
 </div>
