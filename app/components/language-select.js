@@ -2,7 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   i18n: Ember.inject.service(),
-  classNames: ['language-select'],
+  classNames: ['navbar-form'],
+  tagName: 'form',
 
   locales: Ember.computed('i18n.locale', 'i18n.locales', function() {
     const i18n = this.get('i18n');

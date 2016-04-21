@@ -1,32 +1,32 @@
-<div class="container-fluid">
-  <nav id="menu" class="navbar navbar-inverse" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-        <a title="Ebookchain" href="/">
-          <div class="logo"></div>
-        </a>
-      </div>
-
-      <div class="navbar-collapse collapse" id="navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li>{{#link-to 'home'}} {{t "header.nav.home"}} {{/link-to}}</li>
-          <li><a href="http://blog.ebookchain.org/2016/04/17/ebookchain-resources/">{{t "header.nav.resources"}}</a></li>
-          <li><a href="http://blog.ebookchain.org">{{t "header.nav.blog"}}</a></li>
-          <li><a href="http://forum.ebookchain.org">{{t "header.nav.forum"}}</a></li>
-          <li>
-            <a title="Sign in" class="btn btn-default navbar-btn" href="http://forum.ebookchain.org/login">{{t "header.nav.signIn"}}</a>
-          </li>
-          <li>{{language-select}}</li>
-        </ul>
-      </div>
+<nav id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+      <a title="Ebookchain" href="/" class="navbar-brand">
+        <img src="/icons/ebookchain-logo-40x40.png" class="img-responsive">
+      </a>
     </div>
-  </nav>
 
-  {{outlet}}
-</div>
+    <div class="navbar-collapse collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>{{#link-to 'home'}} {{t "header.nav.home"}} {{/link-to}}</li>
+        <li><a href="http://blog.ebookchain.org/2016/04/17/ebookchain-resources/">{{t "header.nav.resources"}}</a></li>
+        <li><a href="http://blog.ebookchain.org">{{t "header.nav.blog"}}</a></li>
+        <li><a href="http://forum.ebookchain.org">{{t "header.nav.forum"}}</a></li>
+        <li>
+          <button type="button" class="btn btn-default navbar-btn">{{t "header.nav.signIn"}}</button>
+          
+        </li>
+        <li>{{language-select}}</li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+{{outlet}}

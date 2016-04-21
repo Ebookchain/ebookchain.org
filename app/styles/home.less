@@ -2,54 +2,15 @@
 @color0: #333333; // Appears 2 times
 @height: 80px;
 
-/*overwrite when use fullpage.js*/
-
-.container {
-    position: unset;
-    margin-top: 0;
+.navbar-brand {
+    padding: 5px;
 }
 
-.container-fluid {
-    padding: 0;
-}
-
-
-/*fullpage*/
-
-#fullpage {
-    .section {
-        padding: 0;
-        margin: 0;
-        h1 {
-            font-size: 4em;
-        }
-    }
-}
-
-#fp-nav {
-    ul {
-        li {
-            width: 14px !important;
-            height: 14px !important;
-            margin-bottom: 10px !important;
-            a {
-                span {
-                    width: 14px !important;
-                    height: 14px !important;
-                    left: 0 !important;
-                    top: 0 !important;
-                    margin: 0 !important;
-                    border: 1px solid #6090b6 !important;
-                    background: none !important;
-                }
-            }
-            .active {
-                span {
-                    background: #6090b6 !important;
-                }
-            }
-        }
-    }
+.section{
+	text-align:center;
+  img, object {
+    margin: auto;
+  }
 }
 
 .cbp-af-header {
@@ -152,7 +113,11 @@
             span {
                 font-size: 4em;
                 font-weight: 100;
+                @media (max-width: 480px) {
+                  font-size: 1em;
+                }
             }
+            
             &:nth-child(2) {
                 border-style: none solid;
                 border-width: 1px;
@@ -165,10 +130,16 @@
 #section1 {
     h1 {
         color: @fullpage-font-color;
+        @media (max-width: 480px) {
+                  font-size: 2em;
+                }
     }
     p {
         color: @fullpage-font-color;
         margin-top: 40px;
+        @media (max-width: 480px) {
+          margin-top: 18px;
+        }
     }
     img {
         max-height: 400px;
@@ -188,16 +159,28 @@
         -webkit-transition: font-size .25s ease-out 0s;
         -moz-transition: font-size .25s ease-out 0s;
         transition: font-size .25s ease-out 0s;
+        @media (max-width: 480px) {
+          font-size: 4em;
+          line-height: 10px;
+          margin-top: 16px;
+        }
     }
 }
 
 #opensource {
+    h1{
+        @media (max-width: 480px) {
+          font-size: 2em;
+          line-height: 20px;
+        }
+    }
     p.desc {
         margin: 40px auto;
+        @media (max-width: 480px) {
+          margin: 10px auto;
+        }
     }
-    img {
-        max-width: 520px;
-    }
+
     .build-with-box {
         text-align: left;
         img {
@@ -211,12 +194,19 @@
             padding: 2.4rem 0;
             position: relative;
             color: #5B5B5B;
+              @media (max-width: 480px) {
+                font-size: 1em;
+                padding: 0;
+              }
         }
         a {
             text-decoration: underline;
             font-size: 1.7rem;
             font-weight: normal;
             color: #57A3E8;
+              @media (max-width: 480px) {
+                font-size: 1em;
+              }
         }
     }
 }
@@ -224,9 +214,15 @@
 #partner {
     p {
         margin: 40px auto;
+        @media (max-width: 480px) {
+              margin: 15px auto;
+        }
     }
     img {
         max-width: 200px;
+        @media (max-width: 480px) {
+                max-width: 100px;
+        }
     }
     .partners {
         margin-bottom: 200px;
@@ -234,60 +230,9 @@
     .prcode {
         img {
             max-width: 100px;
-        }
-    }
-}
-
-@media (max-width: 992px) and (min-width: 768px) {}
-
-@media (max-width: 768px) {
-    #file-size-chart {
-        height: 290px;
-    }
-    #fp-nav.right {
-        right: 15px;
-    }
-    .section {
-        text-align: center;
-        h2 {
-            margin: 10px;
-            font-size: 30px;
-        }
-        p {
-            font-size: 15px;
-            line-height: 28px;
-        }
-    }
-    #footer {
-        h2 {
-            margin: 0;
-        }
-    }
-}
-
-@media (max-width: 480px) {
-    .section {
-        text-align: center;
-        h2 {
-            font-size: 20px;
-        }
-        p {
-            font-size: 13px;
-        }
-    }
-    #footer {
-        display: none;
-    }
-}
-
-@media (max-width: 320px) {
-    .section-two {
-        h2 {
-            top: 95px;
-            margin: 0;
-        }
-        .intro-wrap {
-            top: 130px;
+            @media (max-width: 480px) {
+              max-width: 60px;
+            }
         }
     }
 }

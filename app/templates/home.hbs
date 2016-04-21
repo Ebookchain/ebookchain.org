@@ -1,99 +1,108 @@
-{{#full-page}}
-  <div id="fullpage">
-    <div class="section " id="section0">
-      {{ebc-vivus}}
-      <p>{{t "site.title"}}</p>
-      <img src="images/shadow.png" alt="shadow" class="shadow">
+{{#full-page elementId="fullpage"}}
+<div class="section " id="section0">
+  {{ebc-vivus}}
+  <p>{{t "site.title"}}</p>
+  <img src="images/shadow.png" alt="shadow" class="shadow img-responsive">
 
-      <div class="watching">
-        <div class="number">{{ t "home.num.books" count="100000" id="books" }}</div>
-        <div class="number">{{ t "home.num.users" count="200000" id="users" }}</div>
-        <div class="number">{{ t "home.num.ebc" count="300000" id="ebc" }}</div>
-      </div>
-    </div>
-    <div class="section" id="section1">
-      <div class="intro">
-        <h1>{{t "home.section0.title"}}</h1>
-        <p>{{t "home.section0.desc"}}</p>
-        <img src="images/ebookchain-how-to-work.png" alt="example" />
-      </div>
-    </div>
-    <div class="section" id="section2">
-      <div class="slide">
+  <div class="watching">
+    <div class="number">{{ t "home.num.books" count="100000" id="books" }}</div>
+    <div class="number">{{ t "home.num.users" count="200000" id="users" }}</div>
+    <div class="number">{{ t "home.num.ebc" count="300000" id="ebc" }}</div>
+  </div>
+</div>
+<div class="section" id="section1">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
         <div class="intro">
-          <h1>{{t "home.section1.title"}}</h1>
-          <p>{{t "home.section1.desc"}}</p>
-          <img src="images/slider.png" alt="slider" />
-        </div>
-
-      </div>
-      <div class="slide">
-        <div class="intro">
-          <i class="icon icon-uniF04D"></i>
-          <h1>{{t "home.section1.slide1.title"}}</h1>
-          <p>{{t "home.section1.slide1.desc"}}</p>
-          <img src="images/write.jpg" alt="write" />
+          <h1>{{t "home.section0.title"}}</h1>
+          <p>{{t "home.section0.desc"}}</p>
+          <img src="images/ebookchain-how-to-work.png" alt="example" class="img-responsive" />
         </div>
       </div>
-      <div class="slide">
-        <div class="intro">
-          <i class="icon icon-uniF04E"></i>
-          <h1>{{t "home.section1.slide2.title"}}</h1>
-          <p>{{t "home.section1.slide2.desc"}}</p>
-          <img src="images/safe.jpg" alt="secure" />
-        </div>
-      </div>
-      <div class="slide">
-        <div class="intro">
-          <i class="icon icon-uniF04F"></i>
-          <h1>{{t "home.section1.slide3.title"}}</h1>
-          <p>{{t "home.section1.slide3.desc"}}</p>
-          <img src="images/devices.png" alt="devices" />
-        </div>
-      </div>
-      <div class="slide">
-        <div class="intro">
-          <i class="icon icon-uniE001"></i>
-          <h1>{{t "home.section1.slide4.title"}}</h1>
-          <p>{{t "home.section1.slide4.desc"}}</p>
-          <img src="images/team.jpg" alt="team" />
-        </div>
-      </div>
-
-    </div>
-
-    <div class="section" id="opensource">
-      <div class="intro">
-        <h1>{{t "home.opensource.title"}}</h1>
-        <p class="desc">{{t "home.opensource.desc"}}</p>
-      </div>
-
-      <div id="row">
-        <div class="col-xs-6 col-md-6">
-          <img src="images/ebookcoin-github.jpg" alt="open source" />
-        </div>
-        <div class="col-xs-6 col-md-6 build-with-box">
-          <p>{{t "home.opensource.developers"}}</p>
-          <img alt="Build with" src="images/build_with.png">
-          <p>{{t "home.opensource.technique"}}</p>
-          <a class="" href="http://bitcoin-on-nodejs.ebookchain.org">{{t "home.opensource.btcnodejs-book-link"}}</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="section" id="partner">
-      <div class="intro">
-        <h1>{{t "home.partner.title"}}</h1>
-        <p>{{t "home.partner.desc"}}</p>
-      </div>
-      <div class="row partners">
-        {{#each model.partners as |p|}}
-        <div class="col-md-3">
-          <a href="{{p.link}}"><img alt="{{p.description}}" title="{{p.description}}" src="{{p.logo}}" style="{{p.style}}"></a>
-        </div>
-        {{/each}}
-      </div>
-      {{ebc-footer}}
     </div>
   </div>
+</div>
+<div class="section" id="section2">
+  <div class="slide">
+    <div class="intro">
+      <h1>{{t "home.section1.title"}}</h1>
+      <p>{{t "home.section1.desc"}}</p>
+      <img src="images/slider.png" alt="slider" class="img-responsive" />
+    </div>
+
+  </div>
+  <div class="slide">
+    <div class="intro">
+      <i class="icon icon-uniF04D"></i>
+      <h1>{{t "home.section1.slide1.title"}}</h1>
+      <p>{{t "home.section1.slide1.desc"}}</p>
+      <img src="images/write.jpg" alt="write" class="img-responsive" />
+    </div>
+  </div>
+  <div class="slide">
+    <div class="intro">
+      <i class="icon icon-uniF04E"></i>
+      <h1>{{t "home.section1.slide2.title"}}</h1>
+      <p>{{t "home.section1.slide2.desc"}}</p>
+      <img src="images/safe.jpg" alt="secure" class="img-responsive" />
+    </div>
+  </div>
+  <div class="slide">
+    <div class="intro">
+      <i class="icon icon-uniF04F"></i>
+      <h1>{{t "home.section1.slide3.title"}}</h1>
+      <p>{{t "home.section1.slide3.desc"}}</p>
+      <img src="images/devices.png" alt="devices" class="img-responsive" />
+    </div>
+  </div>
+  <div class="slide">
+    <div class="intro">
+      <i class="icon icon-uniE001"></i>
+      <h1>{{t "home.section1.slide4.title"}}</h1>
+      <p>{{t "home.section1.slide4.desc"}}</p>
+      <img src="images/team.jpg" alt="team" class="img-responsive" />
+    </div>
+  </div>
+
+</div>
+
+<div class="section" id="opensource">
+  <div class="intro">
+    <h1>{{t "home.opensource.title"}}</h1>
+    <p class="desc">{{t "home.opensource.desc"}}</p>
+  </div>
+  <div class="container">
+
+    <div id="row">
+      <div class="col-xs-6 col-md-6">
+        <img src="images/ebookcoin-github.jpg" alt="open source" class="img-responsive" />
+      </div>
+      <div class="col-xs-6 col-md-6 build-with-box">
+        <p>{{t "home.opensource.developers"}}</p>
+        <img alt="Build with" src="images/build_with.png" class="img-responsive">
+        <p>{{t "home.opensource.technique"}}</p>
+        <a class="" href="http://bitcoin-on-nodejs.ebookchain.org">{{t "home.opensource.btcnodejs-book-link"}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="partner">
+  <div class="intro">
+    <h1>{{t "home.partner.title"}}</h1>
+    <p>{{t "home.partner.desc"}}</p>
+  </div>
+  <div class="row partners">
+    {{#each model.partners as |p|}}
+    <div class="col-md-3 col-xs-6">
+      <a href="{{p.link}}">
+        <img alt="{{p.description}}" title="{{p.description}}" src="{{p.logo}}" style="{{p.style}}" class="img-responsive" />
+      </a>
+    </div>
+    {{/each}}
+  </div>
+  
+  {{ebc-footer}}
+</div>
 {{/full-page}}
