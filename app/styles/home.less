@@ -1,82 +1,36 @@
 @fullpage-font-color: white;
 @color0: #333333; // Appears 2 times
 @height: 80px;
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.intro p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
 
 .navbar-brand {
     padding: 5px;
 }
 
-.section{
-	text-align:center;
-  img, object {
-    margin: auto;
-  }
+.navbar-nav li.signin a {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
 }
 
-.cbp-af-header {
-    height: 80px;
-    a {
-        -moz-transition: all 0.3s;
-        -webkit-transition: all 0.3s;
-        color: #aaaaaa;
-        font-size: 1.4em;
-        font-weight: 700;
-        margin: 0 10px;
-        transition: all 0.3s;
-        &:hover {
-            color: @color0;
-        }
-    }
-    .cbp-af-inner {
-        margin: 0 auto;
-        padding: 0 1.875em;
-        max-width: 100%;
-        .navbar-nav {
-            margin: 1em;
-            li {
-                a {
-                    padding: .5em;
-                    margin-top: .5em;
-                }
-                .language-select {
-                    margin-top: 1em;
-                }
-            }
-        }
-        .logo {
-            display: inline-block;
-            background: url(/icons/ebookchain-logo-70x70.png);
-            width: 70px;
-            height: 70px;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: 70px 70px;
-            margin-top: 4px;
-            transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 0.8);
-            -webkit-transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 0.8);
-        }
-    }
-    &.cbp-af-header-shrink {
-        height: 40px;
-        .navbar-nav {
-            margin: 0em;
-        }
-        a {
-            font-size: 1em;
-        }
-        .navbar-nav {
-            li {
-                .language-select {
-                    margin-top: .5em;
-                }
-            }
-        }
-        .logo {
-            background: url(/icons/ebookchain-logo-40x40.png);
-            width: 40px;
-            height: 40px;
-            background-size: 40px 40px;
-        }
+.section {
+    text-align: center;
+    img,
+    object {
+        margin: auto;
     }
 }
 
@@ -114,10 +68,9 @@
                 font-size: 4em;
                 font-weight: 100;
                 @media (max-width: 480px) {
-                  font-size: 1em;
+                    font-size: 1em;
                 }
             }
-            
             &:nth-child(2) {
                 border-style: none solid;
                 border-width: 1px;
@@ -131,14 +84,14 @@
     h1 {
         color: @fullpage-font-color;
         @media (max-width: 480px) {
-                  font-size: 2em;
-                }
+            font-size: 2em;
+        }
     }
     p {
         color: @fullpage-font-color;
         margin-top: 40px;
         @media (max-width: 480px) {
-          margin-top: 18px;
+            margin-top: 18px;
         }
     }
     img {
@@ -160,27 +113,26 @@
         -moz-transition: font-size .25s ease-out 0s;
         transition: font-size .25s ease-out 0s;
         @media (max-width: 480px) {
-          font-size: 4em;
-          line-height: 10px;
-          margin-top: 16px;
+            font-size: 4em;
+            line-height: 10px;
+            margin-top: 16px;
         }
     }
 }
 
 #opensource {
-    h1{
+    h1 {
         @media (max-width: 480px) {
-          font-size: 2em;
-          line-height: 20px;
+            font-size: 2em;
+            line-height: 20px;
         }
     }
     p.desc {
         margin: 40px auto;
         @media (max-width: 480px) {
-          margin: 10px auto;
+            margin: 10px auto;
         }
     }
-
     .build-with-box {
         text-align: left;
         img {
@@ -194,19 +146,19 @@
             padding: 2.4rem 0;
             position: relative;
             color: #5B5B5B;
-              @media (max-width: 480px) {
+            @media (max-width: 480px) {
                 font-size: 1em;
                 padding: 0;
-              }
+            }
         }
         a {
             text-decoration: underline;
             font-size: 1.7rem;
             font-weight: normal;
             color: #57A3E8;
-              @media (max-width: 480px) {
+            @media (max-width: 480px) {
                 font-size: 1em;
-              }
+            }
         }
     }
 }
@@ -215,13 +167,13 @@
     p {
         margin: 40px auto;
         @media (max-width: 480px) {
-              margin: 15px auto;
+            margin: 15px auto;
         }
     }
     img {
         max-width: 200px;
         @media (max-width: 480px) {
-                max-width: 100px;
+            max-width: 100px;
         }
     }
     .partners {
@@ -231,7 +183,7 @@
         img {
             max-width: 100px;
             @media (max-width: 480px) {
-              max-width: 60px;
+                max-width: 60px;
             }
         }
     }

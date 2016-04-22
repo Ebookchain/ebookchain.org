@@ -18,13 +18,14 @@
         <li><a href="http://blog.ebookchain.org/2016/04/17/ebookchain-resources/">{{t "header.nav.resources"}}</a></li>
         <li><a href="http://blog.ebookchain.org">{{t "header.nav.blog"}}</a></li>
         <li><a href="http://forum.ebookchain.org">{{t "header.nav.forum"}}</a></li>
-        <li>
-          <button type="button" class="btn btn-default navbar-btn">{{t "header.nav.signIn"}}</button>
-          
+        <li class="signin">
+           <a class="btn btn-default navbar-btn" href="http://forum.ebookchain.org/login">
+           <i class="glyphicon glyphicon-user"></i>
+           {{ t "header.nav.signIn" }}
+           </a>     
         </li>
         <li>{{language-select}}</li>
-      </ul>
-      
+      </ul>      
     </div>
   </div>
 </nav>

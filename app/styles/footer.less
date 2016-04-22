@@ -1,69 +1,93 @@
+/* Fixed header and footer.
+  	* --------------------------------------- */
+
+#header,
+#footer {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background: #333;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+}
+
+#header {
+    top: 0px;
+}
+
+#footer {
+    bottom: 0px;
+}
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 200;
-  text-align: left;
-  min-height: 200px;
-  color: #546e7a;
-  background: #293c55;
-  .documents_mode & {
-    min-height: 100px;
-  }
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    text-align: left;
+    min-height: 200px;
+    color: #546e7a;
+    background: #293c55;
+    .documents_mode & {
+        min-height: 100px;
+    }
 }
 
 .menu_holder {
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 .menu_caption {
-  margin-bottom: 20px;
-  color: #fff;
-  font-weight: bold;
-  display: block;
-  padding: 10px 0;
-  font-size: 1.5rem;
-  @media (max-width: 480px) {
-    margin-bottom: 0;
-    padding: 0;
-    font-size: 1rem;
-  }
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    @media (max-width: 480px) {
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 1rem;
+    }
 }
 
 .m_item {
-  margin-bottom: 17px;
-  @media (max-width: 480px) {
-    margin-bottom: 0;
-  }
-  .gl_link {
-    font-family: RobotoCondensedRegular, sans-serif;
-    color: #dcd6cf;
-    &:hover {
-      color: #f57c00;
+    margin-bottom: 17px;
+    @media (max-width: 480px) {
+        margin-bottom: 0;
     }
-  }
+    .gl_link {
+        font-family: RobotoCondensedRegular, sans-serif;
+        color: #dcd6cf;
+        &:hover {
+            color: #f57c00;
+        }
+    }
 }
 
 .bottom {
-  height: 80px;
-  background: #f6f6f6;
-  text-align: center;
-  .copyright {
-    color: #aaaaaa;
-  }
-  @media (max-width: 480px) {
-    height: 30px;
-    .logo {
-      display: none;
+    height: 80px;
+    background: #f6f6f6;
+    text-align: center;
+    .copyright {
+        color: #aaaaaa;
     }
-  }
+    @media (max-width: 480px) {
+        height: 30px;
+        .logo {
+            display: none;
+        }
+    }
 }
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     height: 30px;
     .logo {
-      display: none;
+        display: none;
     }
-  }
+}
