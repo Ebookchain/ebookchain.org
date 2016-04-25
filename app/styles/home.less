@@ -9,6 +9,12 @@ p {
     font-size: 2em;
 }
 
+.loading {
+    margin: 20px auto;
+    min-height: 200px;
+    font-size: 2em;
+}
+
 .intro p {
     width: 50%;
     margin: 0 auto;
@@ -19,11 +25,34 @@ p {
     padding: 5px;
 }
 
-.navbar-nav li.signin a {
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
+.navbar-nav {
+    li.signin a {
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        @media (max-width: 480px) {
+            width: 30%;
+            margin-left: 6px;
+        }
+    }
+    @media (max-width: 480px) {
+        .form-control {
+            width: 30%;
+            margin-left: 6px;
+        }
+    }
+}
+
+.fullpage-wrapper {
+    @media (max-width: 480px) {
+        p.desc {
+            display: none;
+        }
+        h1 {
+            margin-bottom: 40px;
+        }
+    }
 }
 
 .section {
