@@ -1,6 +1,6 @@
 export default {
     "site": {
-        "title": "书链：为人类创作注入新动力！",
+        "title": "亿书：为人类创作注入新动力！",
         language: {
             en: "English",
             "en-us": "English American",
@@ -36,7 +36,7 @@ export default {
 
         section1: {
             title: "特点",
-            desc: "书链，是世界上第一个人人可用的去中心化软件。无需去探究什么是加密货币等高深的理论，就可以轻松使用它。",
+            desc: "亿书，是世界上第一个人人可用的去中心化软件。无需去探究什么是加密货币等高深的理论，就可以轻松使用它。",
             slide1: {
                 title: "简单",
                 desc: "只要会打字，使用过类似word，wps等办公软件，就已经具备了操控它的全部技能。"
@@ -55,10 +55,10 @@ export default {
             }
         },
         opensource: {
-            title: "书链是一个完全开源的工程",
+            title: "亿书是一个完全开源的工程",
             desc: "我们所开发的任何产品都是开源的，任何人都可以克隆、开发、集成。非常欢迎喜欢加密货币、喜欢Nodejs技术的小伙伴加入我们。",
             developers: "开发者",
-            technique: "从技术角度说，书链是一个Node.js应用程序，客户端使用了Ember.js。<br>是的，我们喜欢JavaScript，在我们的世界里，一切都是js。",
+            technique: "从技术角度说，亿书是一个Node.js应用程序，客户端使用了Ember.js。<br>是的，我们喜欢JavaScript，在我们的世界里，一切都是js。",
             "btcnodejs-book-link": "我们提供了从入门到高阶，完整的开发文档，值得一看，请点这里 →"
         },
         partner: {
@@ -68,7 +68,7 @@ export default {
     },
 
     footer: {
-        ebookchain: "书链",
+        ebookchain: "亿书",
         resources: "资源",
         social_media: "社交媒体",
         qq: "ebookchain-官方QQ群：185046161",
