@@ -6,7 +6,7 @@ export default {
             "en-us": "English American",
             "zh-cn": "中文"
         },
-loading: "Loading..."
+        loading: "Loading..."
     },
 
     header: {
@@ -16,9 +16,10 @@ loading: "Loading..."
             forum: "Forum",
             ebookcoin: "Ebookcoin",
             faq: "FAQ",
-            document: "Document",
+            document: "Documents",
             signIn: "Sign in",
-            resources: "Resources"
+            ebooks: "Ebooks",
+            products: "Products"
         }
     },
 

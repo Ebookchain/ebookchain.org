@@ -14,11 +14,12 @@ export default {
             home: "主页",
             blog: "博客",
             forum: "论坛",
-            ebookcoin: "博客币",
+            ebookcoin: "亿书币",
             faq: "FAQ",
             document: "文档",
             signIn: "登录",
-            resources: "资源"
+            ebooks: "电子书",
+            products: "产品"
         }
     },
 
@@ -26,7 +27,7 @@ export default {
         num: {
             books: '<span id="watching-{{id}}"> {{count}} </span> 本书',
             users: '<span id="watching-{{id}}"> {{count}} </span> 个人',
-            ebc: '<span id="watching-{{id}}"> {{count}} </span> 博客币'
+            ebc: '<span id="watching-{{id}}"> {{count}} </span> 亿书币'
         },
 
         section0: {
@@ -43,7 +44,7 @@ export default {
             },
             slide2: {
                 title: "安全",
-                desc: "它以加密货币——博客币(ebookcoin，简称EBC）为驱动，基于一个P2P网络，具备比特币一样安全、可信和快捷等特点。"
+                desc: "它以加密货币——亿书币(ebookcoin，简称EBC）为驱动，基于一个P2P网络，具备比特币一样安全、可信和快捷等特点。"
             },
             slide3: {
                 title: "兼容",
