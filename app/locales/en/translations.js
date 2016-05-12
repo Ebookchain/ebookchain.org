@@ -13,7 +13,7 @@ export default {
         nav: {
             home: "Home",
             blog: "Blog",
-            forum: "Forum",
+            club: "Club",
             ebookcoin: "Ebookcoin",
             faq: "FAQ",
             document: "Documents",

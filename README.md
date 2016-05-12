@@ -35,7 +35,7 @@ Ebookchain官方网站，可以作为产品类静态网站生成器使用，地�
 
 ## 社区
 
-开发者社区： <http://forum.ebookchain.org>
+区款链俱乐部： <http://chainclub.org>
 
 开发者博客： <http://blog.ebookchain.org>
 

@@ -13,8 +13,8 @@ export default {
         nav: {
             home: "主页",
             blog: "博客",
-            forum: "论坛",
-            ebookcoin: "亿书币",
+            club: "俱乐部",
+            ebookcoin: "博客币",
             faq: "FAQ",
             document: "文档",
             signIn: "登录",
