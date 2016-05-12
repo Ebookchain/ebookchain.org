@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="description" content="Ebookchain decentralized application - A better community platform for the modern web. Ebookchain is a next generation blockchain application that's free and easy to use.">
-	<meta name="author" content="Ebookchain Inc.">
-	<meta name="keywords" content="ebookchain, node.js, dapp, discussion, community, software, hosting">
-	<title>Ebookchain</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Ebookchain decentralized application - A better community platform for the modern web. Ebookchain is a next generation blockchain application that's free and easy to use.">
+    <meta name="author" content="Ebookchain Inc.">
+    <meta name="keywords" content="ebookchain, node.js, dapp, discussion, community, software, hosting">
+    <title>Ebookchain</title>
 
-	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-196x196.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32-eeb80bf94b828524ae8e4e3500fa5bd6.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96-e6d5a2c8ffba108a5744f0d9bb8d7cff.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16-a91e3a44c6f9edb9bf815f74e2af3021.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-    
-<meta name="ebookchain/config/environment" content="%7B%22modulePrefix%22%3A%22ebookchain%22%2C%22environment%22%3A%22production%22%2C%22baseURL%22%3A%22/ebookchain/%22%2C%22locationType%22%3A%22hash%22%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en%22%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22ebookchain%22%2C%22version%22%3A%220.1.11+09d5628d%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-196x196.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32-eeb80bf94b828524ae8e4e3500fa5bd6.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96-e6d5a2c8ffba108a5744f0d9bb8d7cff.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16-a91e3a44c6f9edb9bf815f74e2af3021.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff"> 
+<meta name="ebookchain/config/environment" content="%7B%22modulePrefix%22%3A%22ebookchain%22%2C%22environment%22%3A%22production%22%2C%22baseURL%22%3A%22/ebookchain/%22%2C%22locationType%22%3A%22hash%22%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en%22%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22ebookchain%22%2C%22version%22%3A%220.1.11+aa39e69d%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
 
     <link rel="stylesheet" href="assets/vendor-cf95304a8eec5aa8db361c2eb4cb0b44.css" integrity="sha256-ojvUr9IpvgF5veUQf6SXiOKPj1aNDY8DJqVGyJ2YPpw= sha512-8CXurWEn1AXvWTSDCK0948HkrkB4kF6aCjOUW8Y/2GYXam6LRV8LWdedOK5onCkS5IparBEZbLRZIzu8hAy9oA==" >
     <link rel="stylesheet" href="assets/ebookchain-99978454f52b67ddedde78ce73a57121.css" integrity="sha256-JJcls7lsoethWIgB1qrM4qG79cTYj4qNV9FKGHwpZhg= sha512-F+y+2KW2K++9NexGkO7poOZ2Y629F75FTGGDpS8YjJdeJYjNS8t1Z6Wq0OnuHhA5lvvR466dbyktaJMtSih5xA==" >
 
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?faad29607a922dfc65f098b1b43954eb";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
     
-  </head>
-  <body>
+</head>
+
+<body>
     
 
     <script src="assets/vendor-9f8c46d9db073ff2077011445ce3072f.js" integrity="sha256-nheJQ30xgf/j5oMZSINKz59tdZ5WCigENayyJTgJKrQ= sha512-BFAASgNaX+tf2i56lkCad1yFIonJrrtZUHEkO+gxr0uTIPLfsTxkUKxZqXkfjFki3J8rIpaxtFahBYnHcZyL4Q==" ></script>
-    <script src="assets/ebookchain-67908d9d9693f84bf396b66c93701e12.js" integrity="sha256-ZXrM0E2xaE9kqcxQm/g5gOaQcte1GogcLp0Q4TIkovU= sha512-qqhH7aMb/tNiRDHVSkKca70oF/Dw9DUgOIiV/Z1Q+R0ApFEMBOz9YXuYhPrLhX83OOdKWNwzO1eYCO5j7bj+jQ==" ></script>
+    <script src="assets/ebookchain-a2e93af4ccb803233d39c79602955e1f.js" integrity="sha256-RJskjzgTc3UR16+ZrMmoApJEPh9ANxUeWRW/dbQ0o8c= sha512-KanFXYj4VoRz+3zbkkKX1hE+78OjQcsTlN8KQRyC/qzjGNLbykC82BwWqBvshgfznYNpAcD7Qo4MQpf+Nr3U2w==" ></script>
 
     
-  </body>
+</body>
+
 </html>
