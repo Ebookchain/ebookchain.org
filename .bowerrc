@@ -1,4 +1,7 @@
 {
   "directory": "bower_components",
-  "analytics": false
+  "analytics": false,
+  "interactive": false,
+  "proxy": "http://proxy.lh.petrochina:8080",
+  "https-proxy": "http://proxy.lh.petrochina:8080"
 }

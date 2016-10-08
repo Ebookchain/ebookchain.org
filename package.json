@@ -1,6 +1,6 @@
 {
   "name": "ebookchain",
-  "version": "0.1.13",
+  "version": "0.1.15",
   "description": "website ebookchain.org",
   "private": true,
   "directories": {
@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
+    "build": "ember build -prod",
     "start": "ember server",
     "test": "ember test",
     "deploy": "node_modules/.bin/gulp deploy"
