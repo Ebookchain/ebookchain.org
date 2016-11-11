@@ -1,19 +1,19 @@
-<nav id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+{{#bs-navbar position="fixed-top"}}
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+      {{#bs-navbar-toggle}}
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-            </button>
+      {{/bs-navbar-toggle}}
       <a title="Ebookchain" href="/" class="navbar-brand">
         <img src="/icons/ebookchain-logo-40x40.png" class="img-responsive">
       </a>
     </div>
 
-    <div class="navbar-collapse collapse" id="navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+    {{#bs-navbar-content}}
+      {{#bs-navbar-nav class="navbar-right"}}
         <li>{{#link-to 'home'}} {{t "header.nav.home"}} {{/link-to}}</li>
         <li><a href="http://blog.ebookchain.org/products/">{{t "header.nav.products"}}</a></li>
         <li><a href="http://blog.ebookchain.org/books/">{{t "header.nav.ebooks"}}</a></li>
@@ -27,7 +27,7 @@
            </a>
         </li>
         <li>{{language-select}}</li>
-      </ul>
-    </div>
+      {{/bs-navbar-nav}}
+    {{/bs-navbar-content}}
   </div>
-</nav>
+{{/bs-navbar}}
