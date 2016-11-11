@@ -47,6 +47,6 @@
     "loader.js": "^4.0.1"
   },
   "dependencies": {
-    "ember-bootstrap": "^0.7.0"
+    "ember-bootstrap": "^0.11.0"
   }
 }
