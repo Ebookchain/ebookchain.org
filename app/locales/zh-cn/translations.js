@@ -19,7 +19,9 @@ export default {
             document: "文档",
             signIn: "登录",
             ebooks: "电子书",
-            products: "产品"
+            products: "产品",
+            team: "团队",
+            tpc: "TPC"
         }
     },
 

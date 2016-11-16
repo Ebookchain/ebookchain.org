@@ -19,7 +19,9 @@ export default {
             document: "Documents",
             signIn: "Sign in",
             ebooks: "Ebooks",
-            products: "Products"
+            products: "Products",
+            team: "Team",
+            tpc: "TPC"
         }
     },
 
