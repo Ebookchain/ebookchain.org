@@ -1,7 +1,66 @@
+@charset "utf-8";
+
 .wrapper {
   margin-top: 60px;
 }
-@charset "utf-8";
+
+#tpc-image{
+  height: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(/images/tpcbanner512.jpg);
+  background-repeat: repeat-x;
+  overflow: hidden;
+  text-align: center;
+  h1{
+    color: #ccc;
+  }
+  h3{
+    color: #fffbf5;
+  }
+  @media(max-width: 750px){
+    h1{
+      font-size: 2em;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+  }
+}
+
+.countdown{
+    height: 100px;
+    margin: 10px;
+    span{
+        display: inline-block;
+        width: 70px;      
+    }
+    .c-time span{
+        height: 70px;
+        line-height: 70px;
+        font-size: 3em;
+        background-color: #f8a01a;        
+    }
+    .c-text span{
+        height: 30px;
+        line-height: 30px;
+        font-size: 1.2em;
+        color: #f8a01a;
+    }
+    @media(max-width: 750px){
+      span{
+        width: 45px;
+      }
+      .c-time span{
+        font-size: 2em;
+      }
+      .c-text span{
+        font-size: 0.8em;
+      }
+    }
+}
+
+/* 以下为typo.css内容 */
 
 /* 去掉各Table cell 的边距并让其边重合 */
 table {

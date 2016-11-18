@@ -194,6 +194,52 @@ p {
     }
 }
 
+/*team section */
+#team {
+    background-color: #023d4b;
+    color: @fullpage-font-color;
+    .team-container{
+        width: 75%;
+        margin: 0 auto;
+    }    
+    h1 {
+        @media (max-width: 480px) {
+            font-size: 2em;
+        }
+    }
+    .team-box{
+        display: inline-block;
+        font: left;
+        width: 18%;
+        padding:20px 30px;
+        margin:0 5px;
+        a{
+            text-decoration: none;
+            color: @fullpage-font-color;
+            &:hover{
+                color:#e34e24;
+            }
+        }
+        @media (max-width: 992px) {
+            width: 40%;
+        } 
+        @media (max-width: 768px) {
+            width: 60%;
+        }        
+    }
+    .img-box{
+        padding: 5%;
+        border-radius: 100%;
+        background-color: #ccc;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 100%;
+        border:2px solid #333;
+    }
+}
+
 #partner {
     .row{
             margin-left:0px;

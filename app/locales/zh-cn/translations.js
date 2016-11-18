@@ -64,6 +64,9 @@ export default {
             technique: "从技术角度说，亿书是一个Node.js应用程序，客户端使用了Ember.js。<br>是的，我们喜欢JavaScript，在我们的世界里，一切都是js。",
             "btcnodejs-book-link": "我们提供了从入门到高阶，完整的开发文档，值得一看，请点这里 →"
         },
+        team: {
+            title: "我们的团队"
+        },        
         partner: {
             title: "合作伙伴",
             desc: "我们为世界上著名的开源产品或社区提供支持，欢迎您访问或使用他们。"

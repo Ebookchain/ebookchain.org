@@ -1,0 +1,90 @@
+p {
+    font-family: "微软雅黑";
+    font-size: 1em;
+    @media(max-width: 992px){
+    	font-size: 0.8em;
+    }
+}
+.teambody{
+	padding: 60px 5%;
+	width: 100%;
+	height: auto;
+}
+/*member模块*/
+.m-block{
+	color: #333;
+	width: 100%;
+	padding: 5%;
+	overflow:hidden
+}
+/*member头像模块*/
+.m-pic{
+	width: 20%;
+	border-radius: 100%;
+	border: 5px solid #ccc;
+	margin: 5%;
+	overflow: hidden;
+	img{
+        width: 100%;
+        border-radius: 100%;
+        border:2px solid #333;
+    }
+}
+
+/*member图像左置或者右置*/
+.m-pic-left{
+	float: left;
+	@media(max-width: 480px){
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+		}
+}
+.m-pic-right{
+	float: right;
+	@media(max-width: 480px){
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+		}
+}
+
+/*member文字部分*/
+.m-text{
+	width: 60%;
+	float: left;
+	padding-left: 5%;
+	@media(max-width: 480px){
+			width: 100%;
+    		float: none;
+    		text-align: center;
+   		}
+}
+
+/*member标题*/
+.m-title{
+	height: 20%;
+	margin: 5% 0;
+}
+
+/*member简介*/
+.m-desc{
+	height: 60%;
+}
+
+/*member的微博, facebook 链接, 或者人生格言*/
+.m-link{
+	height: 20%;
+	margin-top: 5%;
+}
+
+/*分隔线*/
+.line{
+	clear: both;
+	width: 50%;
+	margin: 10px auto;
+	height: 15px;
+	background-image: url(/images/redline.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}

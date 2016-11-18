@@ -64,6 +64,9 @@ export default {
             technique: "Ebookchain is a lightning-fast Node.js application with an Ember.js admin client and Handlebars.js themes.<br>We like JavaScript.",
             "btcnodejs-book-link": "Check out the Ebookchain developer docs →"
         },
+        team: {
+            title: "Our Team"
+        },
         partner: {
             title: "Partnerships",
             desc: "Join some of the world's most important organisations who powered by Ebookchain."

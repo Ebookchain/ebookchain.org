@@ -1,3 +1,41 @@
-<h3>
-亲，设计中，马上回来。。。
-</h3>
+<div class="teambody">
+	 {{#each model.teams as |t|}}
+	 	<div class="m-block">
+	 		{{#if t.id_odd}}
+				<div class="m-pic m-pic-left">
+		            <img src="{{t.pic}}" alt="{{t.name}}">
+		        </div>
+				<div class="m-text">				
+		 			<div class="m-title">
+		 				<h3>{{t.name}}</h3>
+		 				<em>{{t.title}}</em>
+		 			</div>
+		 			<div class="m-desc">
+		 				<p>{{t.desc}}</p>
+		 			</div>
+		 			<div class="m-link">
+		 				<p><em>&mdash;&mdash;&mdash; 亿书，改变人类知识创作、存储与分享的方式</em></p>
+		 			</div>
+		 		</div>		 			
+	 		{{else}}
+				<div class="m-pic m-pic-right">
+		            <img src="{{t.pic}}" alt="{{t.name}}">
+		        </div>
+				<div class="m-text">
+		 			<div class="m-title">
+		 				<h3>{{t.name}}</h3>
+		 				<em>{{t.title}}</em>
+		 			</div>
+		 			<div class="m-desc">
+		 				<p>{{t.desc}}</p>
+		 			</div>
+		 			<<div class="m-link">
+		 				<p><em>&mdash;&mdash;&mdash; 亿书，改变人类知识创作、存储与分享的方式</em></p>
+		 			</div>
+	 			</div>
+	 		{{/if}}
+		</div>
+		<div class="line"></div>		 	
+	 {{/each}}
+</div>
+{{ebc-footer}}
