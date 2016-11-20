@@ -21,7 +21,9 @@ export default {
             ebooks: "电子书",
             products: "产品",
             team: "团队",
-            tpc: "TPC"
+            tpc: "TPC",
+            whitepaper: "白皮书",
+            greenpaper: "绿皮书"
         }
     },
 
@@ -66,7 +68,7 @@ export default {
         },
         team: {
             title: "我们的团队"
-        },        
+        },
         partner: {
             title: "合作伙伴",
             desc: "我们为世界上著名的开源产品或社区提供支持，欢迎您访问或使用他们。"

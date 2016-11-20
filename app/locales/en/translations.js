@@ -21,7 +21,9 @@ export default {
             ebooks: "Ebooks",
             products: "Products",
             team: "Team",
-            tpc: "TPC"
+            tpc: "TPC",
+            whitepaper: "Whitepaper",
+            greenpaper: "Greenpaper"
         }
     },
 
