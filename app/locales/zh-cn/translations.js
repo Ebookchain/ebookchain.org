@@ -14,7 +14,7 @@ export default {
             home: "主页",
             blog: "博客",
             club: "俱乐部",
-            ebookcoin: "博客币",
+            ebookcoin: "Ebookcoin",
             faq: "FAQ",
             document: "文档",
             signIn: "登录",
