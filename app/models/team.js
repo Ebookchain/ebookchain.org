@@ -80,6 +80,13 @@ Team.reopenClass({
             title: "OD",
             pic: "/images/team/team.jpg",
             desc: "兼职做亿书运营和推广工作。做事雷厉风行，大胆心细，多年的股票基金投资经验，转战区块链行业，作为比特币区块链天使投资人，已有不俗的战绩。"
+        },
+        {
+            id: 11,
+            name: "李超",
+            title: "Developer",
+            pic: "/images/team/team6.jpg",
+            desc: "李超，26岁，北京。Nodejs玩家，区块链的爱好者，翻转式学习信徒，一只对产品设计与新媒体运营都兴趣十足的程序猿，现从事NodeJs开发。期望在亿书中将区块链的知识分享给所有感兴趣的伙伴们，一起打造信用社会。"
         }
     ]
 });

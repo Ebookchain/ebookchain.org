@@ -9,7 +9,8 @@ module.exports = function(defaults) {
     //   // prepend: 'ebookchain.org/'
     // }
   });
-
+  
+  app.import("bower_components/bootstrap/dist/js/bootstrap.js");
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //

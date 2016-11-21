@@ -37,6 +37,27 @@ Partner.reopenClass({
     logo: "images/logos/nodebb.png",
     style: "background-color: gray;",
     description: "Node.js based forum software built for the modern web"
+  },{
+    id: 5,
+    name: "Node.js based forum software built for the modern web",
+    link: "https://csdn.net/",
+    logo: "images/logos/csdn.png",
+    style: "background-color: #ccc;",
+    description: "中国最大的IT社区和服务平台"
+  },{
+    id: 6,
+    name: "mpwang",
+    link: "http://mpwang.cn/",
+    logo: "images/logos/mpwang.png",
+    style: "background-color: #393a4c;",
+    description: "用照片记录生活面貌"
+  },{
+    id: 7,
+    name: "biviews",
+    link: "https://www.biviews.com/",
+    logo: "images/logos/biviews.png",
+    style: "",
+    description: "区块链行业的经济学人"
   }]
 });
 
