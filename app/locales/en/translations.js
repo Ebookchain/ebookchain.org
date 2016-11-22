@@ -77,7 +77,7 @@ export default {
 
     footer: {
         ebookchain: "Ebookchain",
-        resources: "Resources",
+        ebookcoin: "Ebookcoin",
         social_media: "Social Media",
         qq: "ebookchain-官方QQ群：185046161",
         weixin: "ebookchain-官方微信群"

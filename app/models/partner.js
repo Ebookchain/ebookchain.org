@@ -39,7 +39,7 @@ Partner.reopenClass({
     description: "Node.js based forum software built for the modern web"
   },{
     id: 5,
-    name: "Node.js based forum software built for the modern web",
+    name: "CSDN",
     link: "https://csdn.net/",
     logo: "images/logos/csdn.png",
     style: "background-color: #ccc;",
@@ -58,6 +58,13 @@ Partner.reopenClass({
     logo: "images/logos/biviews.png",
     style: "",
     description: "区块链行业的经济学人"
+  },{
+    id: 8,
+    name: "ubuntu",
+    link: "https://www.ubuntu.com/",
+    logo: "images/logos/ubuntu.png",
+    style: "",
+    description: "Ubuntu is an open source software platform"
   }]
 });
 

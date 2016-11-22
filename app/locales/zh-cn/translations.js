@@ -76,8 +76,8 @@ export default {
     },
 
     footer: {
-        ebookchain: "亿书",
-        resources: "资源",
+        ebookchain: "亿书源码",
+        ebookcoin: "亿书官网源码",
         social_media: "社交媒体",
         qq: "ebookchain-官方QQ群：185046161",
         weixin: "ebookchain-官方微信群"
