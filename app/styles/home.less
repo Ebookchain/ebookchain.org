@@ -76,26 +76,11 @@ p {
     p {
         color: @fullpage-font-color;
         font-size: 3em;
-        color: #eee;
-    }
-    .carousel-phone{
-        padding-top: 250px;
-        display: none;
-        height: 100%;
-        width: 100%;
-        .shadow {
-            width: 78%;
-            margin: 20px auto 30px;
+        @media (max-width: 480px) {
+            font-size: 1.5em;
         }
-    /*  .ebcvivus{
-            height: 100%;
-            width: 500px;
-            z-index: 500;
-            text-align: center;
-            background-image: url(/images/spacex.jpg); 
-        }*/
     }
-    #carousel-home{
+/*    #carousel-home{
       //  background-image: url(/images/white-brick-background.png);
       background-image: url(/images/bg-book.png);
     }
@@ -115,14 +100,99 @@ p {
         background-position:center;
         
     }
-/*    .ebcvivus{
+   .ebcvivus{
         height: 100%;
         width: 500px;
         z-index: 500;
         text-align: center;
         background-image: url(/images/spacex.jpg); 
-    }*/
+    }
+    @media(max-width: 480px){
+        background-image: url(/images/spacex.jpg);
+        background-repeat: repeat-x;
+        background-position:center;
+        #carousel-home{
+            display: none;
+        }
+        .carousel-phone{
+            display: table-cell;
+        }
+        p{
+            font-size: 2em;
+        }
+    }
+    */
+    .slide1{
+        background-image: url(/images/spacex.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
+    }
+    .slide2{
+        background-image: url(/images/book-1920x1080.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media (max-width: 480px) {
+            background-color: #f2731e;
+            background-image: url(/images/book-960x540.png);
+        }
+    }
+    .slide3{
+        background-image: url(/images/tpc-1920x1080.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media (max-width: 480px) {
+            background-color: #eee;
+            background-image: url(/images/tpc-960x540.png);
+        }
+    }
+    .slide4{
+        background-image: url(/images/ebookchain-1920x1080.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media (max-width: 480px) {
+            background-color: #f0e0b0;
+            background-image: url(/images/ebookchain-960x540.png);
+        }
+    }
+    .fp-controlArrow{
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        border-width: 0;
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+    .fp-prev{
+        background-image: url(/images/arrow.png);
+        left:80px;
+        @media (max-width: 480px) {
+            left:20px;            
+        }
+    }
+    .fp-next{
+        background-image: url(/images/arrow.png);
+        right: 80px;
+        transform:  rotate(-180deg);
+        @media (max-width: 480px) {
+            right:20px;            
+        }
+    }
+    .fp-slidesNav.bottom{
+        bottom: 60px;
+        background:transparent;
+    }
+/*    .shadow {
+        width: 78%;
+        margin: 20px auto 30px;
+    }*/
     .watching {
         position: absolute;
         bottom: 0;
@@ -150,20 +220,6 @@ p {
                 border-width: 1px;
                 border-color: rgba(255, 255, 255, .3);
             }
-        }
-    }
-    @media(max-width: 480px){
-        background-image: url(/images/spacex.jpg);
-        background-repeat: repeat-x;
-        background-position:center;
-        #carousel-home{
-            display: none;
-        }
-        .carousel-phone{
-            display: table-cell;
-        }
-        p{
-            font-size: 2em;
         }
     }
 }
@@ -206,6 +262,13 @@ p {
             margin-top: 16px;
         }
     }
+/*    .fp-controlArrow,.fp-prev{
+        &:before{
+            content:"\e001";
+            box-sizing:border-box;
+        }
+    }*/
+    
 }
 
 #opensource {
