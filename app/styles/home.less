@@ -122,14 +122,27 @@ p {
         }
     }
     */
-    .slide1{
+    .slide1{ 
+        background-image: url(/images/tpcbanner512.jpg);
+        @media (max-width: 480px) {
+            background-color: #eee;
+            background-image: url(/images/tpcbanner512.jpg);            
+            h1{
+              font-size: 2em;
+            }
+            h3{
+              font-size: 1.5em;
+            }
+        }
+    }
+    .slide2{
         background-image: url(/images/spacex.jpg);
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
 
     }
-    .slide2{
+    .slide3{
         background-image: url(/images/book-1920x1080.jpg);
         background-position:center;
         background-repeat: no-repeat;
@@ -137,16 +150,6 @@ p {
         @media (max-width: 480px) {
             background-color: #f2731e;
             background-image: url(/images/book-960x540.png);
-        }
-    }
-    .slide3{
-        background-image: url(/images/tpc-1920x1080.jpg);
-        background-position:center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        @media (max-width: 480px) {
-            background-color: #eee;
-            background-image: url(/images/tpc-960x540.png);
         }
     }
     .slide4{
