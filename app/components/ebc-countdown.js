@@ -10,7 +10,17 @@ export default Ember.Component.extend({
     	this._super();
         this.updateTime();
     },
-    endtime: new Date(2016, 11, 12, 12, 12, 0).getTime(),
+    endtime1: new Date(2016, 11, 12, 12, 12, 0).getTime(),
+    endtime2: new Date(2017, 0, 21, 21, 21, 0).getTime(),
+    TPC_start: false,
+    endtime: Ember.computed('curtime', 'endtime1','endtime2',function(){       
+        if(this.get('curtime') > this.get('endtime1')){
+            this.set('TPC_start',true);
+            return this.get('endtime2');
+        }else{
+            return this.get('endtime1');
+        }
+    }),
     lefttime: Ember.computed('curtime', 'endtime', function() {
         return parseInt((this.get('endtime') - this.get('curtime')) / 1000);
     }),
