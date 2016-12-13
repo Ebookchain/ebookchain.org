@@ -79,27 +79,27 @@ Team.reopenClass({
             title: "Developer",
             pic: "/images/team/team10.jpg",
             desc: "李超，26岁，北京。Nodejs玩家，区块链的爱好者，翻转式学习信徒，一只对产品设计与新媒体运营都兴趣十足的程序猿，现从事NodeJs开发。期望在亿书中将区块链的知识分享给所有感兴趣的伙伴们，一起打造信用社会。"
-        },
+        },,
         {
             id: 11,
+            name: "周洋",
+            title: "Developer",
+            pic: "/images/team/team13.jpg",
+            desc: "网名yz89，28岁，多年的c++及nodejs开发经验。本着“快乐编程”的原则，希望所学的知识用于创造美好的事物上。现痴迷于研究区块链技术，与亿书的小伙伴们一同见证和推动这时代，愿结识更多同在路上的朋友"
+        }
+        {
+            id: 12,
             name: "周",
             title: "Developer",
             pic: "/images/team/team.jpg",
             desc: "36岁，河北保定，一直从事C++及视频相关的工作，在C++方面具有多年丰富的开发经验，对区块链技术方面都有比较深入的研究，在做亿书性能优化和侧链研发方面研究和探索。"
         },
         {
-            id: 12,
+            id: 13,
             name: "Elikong",
             title: "Developer",
             pic: "/images/team/team.jpg",
             desc: "42岁，在职研究生，一个始终坚守技术开发的老兵，在c和c++开发方面已有16年开发经验，在 Android开发方面有6年经验，浏览器相关软件开发也是有10年以上的开发经验，主要专注在亿书区块链浏览器、客户端、分布式存储等方面的设计和研发。"
-        },
-        {
-            id: 13,
-            name: "周洋",
-            title: "Developer",
-            pic: "/images/team/team13.jpg",
-            desc: "网名yz89，28岁，多年的c++及nodejs开发经验。本着“快乐编程”的原则，希望所学的知识用于创造美好的事物上。现痴迷于研究区块链技术，与亿书的小伙伴们一同见证和推动这时代，愿结识更多同在路上的朋友"
         }
     ]
 });
