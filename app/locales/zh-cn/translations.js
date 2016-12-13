@@ -23,7 +23,8 @@ export default {
             team: "团队",
             tpc: "TPC",
             whitepaper: "白皮书",
-            greenpaper: "绿皮书"
+            greenpaper: "绿皮书",
+            business:"商业生态"
         }
     },
 

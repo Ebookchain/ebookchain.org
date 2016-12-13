@@ -40,7 +40,7 @@ Teamsection.reopenClass({
             id: 5,
             name: "Zmf",
             title: "Developer",
-            pic: "/images/team/team.jpg",
+            pic: "/images/team/team5.jpg",
             desc: "32岁，硕士研究生，密码学专家，负责亿书底层协议研发，专注于加密算法优化设计和国产化工作。曾就职于一家知名集成电路龙头企业，多年密码算法信息安全方面的工作经验，对区块链加密算法等方面具有得天独厚的优势，在研究区块链算法的同时，也为亿书在算法方面的精进做出了突出贡献。"
         },
         {
