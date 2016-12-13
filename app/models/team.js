@@ -79,14 +79,14 @@ Team.reopenClass({
             title: "Developer",
             pic: "/images/team/team10.jpg",
             desc: "李超，26岁，北京。Nodejs玩家，区块链的爱好者，翻转式学习信徒，一只对产品设计与新媒体运营都兴趣十足的程序猿，现从事NodeJs开发。期望在亿书中将区块链的知识分享给所有感兴趣的伙伴们，一起打造信用社会。"
-        },,
+        },
         {
             id: 11,
             name: "周洋",
             title: "Developer",
             pic: "/images/team/team13.jpg",
             desc: "网名yz89，28岁，多年的c++及nodejs开发经验。本着“快乐编程”的原则，希望所学的知识用于创造美好的事物上。现痴迷于研究区块链技术，与亿书的小伙伴们一同见证和推动这时代，愿结识更多同在路上的朋友"
-        }
+        },
         {
             id: 12,
             name: "周",
