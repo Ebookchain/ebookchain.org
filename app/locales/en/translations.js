@@ -11,6 +11,7 @@ export default {
 
     header: {
         nav: {
+            ebookchain: "ebookchain",
             home: "Home",
             blog: "Blog",
             club: "Club",
@@ -36,7 +37,9 @@ export default {
         },
         section0: {
             title: "Writing / collaboration is so simple",
-            desc: "To give knowledge a price tag, make writing more simple and convenient."
+            desc: "To give knowledge a price tag, make writing more simple and convenient.",
+            writer: "Writer",
+            reader: "Reader"
         },
 
         section1: {
@@ -64,8 +67,10 @@ export default {
             title: "Ebookchain is a fully open source product",
             desc: "Everything we do is open source, so you can theme, extend and integrate to your heart’s content. Developers welcome.",
             developers: "Developers",
-            technique: "Ebookchain is a lightning-fast Node.js application with an Ember.js admin client and Handlebars.js themes. We like JavaScript.",
-            "btcnodejs-book-link": "Check out the Ebookchain developer docs →"
+            technique: "The first book detailing the blockchain development with source code. It is a cookbook combined with real blockchain project. It could be the refference of product developing.",
+            "btcnodejs-book-link": "ebook",
+            sourcecode: "ebookcoin"
+
         },
         team: {
             title: "Our Team"

@@ -11,6 +11,7 @@ export default {
 
     header: {
         nav: {
+            ebookchain: "亿书",
             home: "主页",
             blog: "博客",
             club: "俱乐部",
@@ -24,7 +25,7 @@ export default {
             tpc: "TPC",
             whitepaper: "白皮书",
             greenpaper: "绿皮书",
-            business:"商业生态"
+            business:"商业生态",
         }
     },
 
@@ -37,7 +38,9 @@ export default {
 
         section0: {
             title: "写作/协作就是这么简单",
-            desc: "给知识明码标价，让写作简单便捷。"
+            desc: "给知识明码标价，让写作简单便捷。",
+            writer: "作者",
+            reader: "读者"
         },
 
         section1: {
@@ -65,7 +68,8 @@ export default {
             desc: "我们所开发的任何产品都是开源的，任何人都可以克隆、开发、集成。非常欢迎喜欢加密货币、喜欢Nodejs技术的小伙伴加入我们。",
             developers: "开发者",
             technique: "全球第一本从代码层面详细解读区块链开发的书籍，第一个以实际项目为例，与项目配套，可以作为详细开发文档的书籍。",
-            "btcnodejs-book-link": "电子书"
+            "btcnodejs-book-link": "电子书",
+            sourcecode: "源码"
         },
         team: {
             title: "我们的团队"
