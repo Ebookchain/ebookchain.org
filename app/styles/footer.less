@@ -1,0 +1,75 @@
+/* Fixed header and footer.
+  	* --------------------------------------- */
+
+#header {
+    top: 0px;
+}
+
+#footer {
+    bottom: 0px;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    text-align: left;
+    min-height: 150px;
+    color: #ccc;
+    background: #4c5358;
+    .row{
+            margin-left:0px;
+            margin-right:0px;
+        }
+    @media (max-width: 480px) {
+        font-size: 10px;
+        min-height: 100px;
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+      margin: 0 5px;
+      &:hover{
+        color: #ccc;
+        text-decoration: none;
+      };
+    }
+}
+
+.menu_holder {
+    color: #fff;
+    min-height: 60px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    img{
+        margin: 20px auto;
+    }           
+}
+
+.menu_caption {
+    font-weight: bold;
+    display: block;
+    font-size: 1.5rem;
+    @media (max-width: 480px) {
+        font-size: 10px;
+        padding: 0;
+        margin: 5px;
+    }
+}
+
+.bottom {
+    height: 80px;
+    background: #f6f6f6;
+    text-align: center;
+    .copyright {
+        color: #aaaaaa;
+    }
+    @media (max-width: 480px) {
+        height: 30px;
+        .logo {
+            display: none;
+        }
+    }
+}

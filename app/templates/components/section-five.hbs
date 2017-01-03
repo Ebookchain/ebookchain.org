@@ -1,0 +1,12 @@
+  <h1>{{t "home.team.title"}}</h1>
+  <div class="team-container">
+    {{#each teamsection as |t|}}
+        <div class="team-box">
+          <div class="img-box">
+            <img src="{{t.pic}}" alt="{{t.name}}">
+          </div>
+          {{#link-to 'team'}}<h3>{{t.name}}</h3>{{/link-to}}
+          <em>{{t.title}}</em>
+        </div>
+    {{/each}}
+  </div>

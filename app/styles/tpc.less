@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+
+/* 去掉列表前的标识, li 会继承，大部分网站通常用列表来很多内容，所以应该当去 */
+ol,ul {
+  list-style: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ 
+/*banner部分*/
+#tpc-image{
+  height: 500px;
+
+  padding-top: 60px;
+  background-image: url(/images/tpcbanner512.jpg);
+  background-repeat: repeat-x;
+  overflow: hidden;
+  text-align: center;
+  h1{
+    color: #ccc;
+  }
+  h3{
+    color: #fffbf5;
+  }
+  @media(max-width: 750px){
+    h1{
+      font-size: 2em;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+  }
+}
+
+/*倒计时效果*/
+.countdown{
+    margin: 10px;
+    span{
+        display: inline-block;
+        width: 70px;      
+    }
+    .c-time span{
+        height: 70px;
+        line-height: 70px;
+        font-size: 3em;
+        background-color: #f8a01a;        
+    }
+    .c-text span{
+        height: 30px;
+        line-height: 30px;
+        font-size: 1.5em;
+        color: #f8a01a;
+    }
+    @media(max-width: 750px){
+      span{
+        width: 45px;
+      }
+      .c-time span{
+        font-size: 2em;
+      }
+      .c-text span{
+        font-size: 0.8em;
+      }
+    }
+}
+
+/*catalog 目录*/
+
+.catalog{
+  display: block;
+  margin-top:50px;
+  text-align: center;
+  .title{
+    font-size: 1.5em;
+    border-bottom: 1px solid #196080;
+    margin-bottom: 1em;
+  }
+  li{
+    font-size: 1.1em;
+    font-family: "微软雅黑";
+    padding: 0.33em;
+    margin: 0.33em;
+  }
+  a{
+    padding: 0 1em;
+    font-weight:500;
+    color:#888;
+    &:hover{
+      color: #196080;
+      text-decoration: none;
+      border-right: 2px solid #196080;
+    }
+  }
+  @media(max-width: 480px){
+    display: none;
+  }
+}
+.drop-catalog{
+  display: none;
+  margin-top:20px;
+  text-align: center;
+  @media(max-width: 480px) {
+    display: block;
+  }
+}
+
+.affix{
+    top: 60px;
+  }
+
+.content{
+  padding:50px 10px;
+
+  /*无序列表加前缀*/
+  ul {
+    list-style: circle;
+    padding-left: 3em;
+  }
+}
+
+.page-header{
+  color: #337ab7;
+}
+/* 以下为typo.css内容 */
+
+.typo h1, h2, h3, h4, h5, h6 {
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  font-weight: 100;
+  line-height: 1.35;
+}
+
+/* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
+.typo h1, .typo h2, .typo h3, .typo h4, .typo h5, .typo h6,
+.typo-h1, .typo-h2, .typo-h3, .typo-h4, .typo-h5, .typo-h6 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  line-height: 1.35;
+}
+
+.typo h1, .typo-h1 {
+  font-size: 2em;
+}
+
+.typo h2, .typo-h2 {
+  font-size: 1.8em;
+}
+
+.typo h3, .typo-h3 {
+  font-size: 1.6em;
+}
+
+.typo h4, .typo-h4 {
+  font-size: 1.4em;
+}
+
+.typo h5, .typo h6, .typo-h5, .typo-h6 {
+  font-size: 1.2em;
+}
+
+.typo p{
+  font-size: 1.2em;
+}
+
+/* 保证块/段落之间的空白隔行 */
+.typo p, .typo pre, .typo ul, .typo ol, .typo dl, .typo form, .typo hr, .typo table,
+.typo-p, .typo-pre, .typo-ul, .typo-ol, .typo-dl, .typo-form, .typo-hr, .typo-table, blockquote {
+  margin-bottom: 1.2em
+}
+
+
+/*着重号*/
+.typo em,
+.typo-em,
+caption,
+legend {
+  color: #000;
+  font-weight: inherit;
+}
+/* 着重号，只能在少量（少于100个字符）且全是全角字符的情况下使用 */
+.typo-em {
+  position: relative;
+}
+
+.typo-em:after {
+  position: absolute;
+  top: 0.65em;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  content: "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・";
+}
+

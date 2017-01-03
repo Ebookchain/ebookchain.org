@@ -1,0 +1,44 @@
+{{#full-page elementId="fullpage" slidesNavigation="true" slidesNavPosition="bottom"}}
+<div class="section " id="section1">
+  {{section-one}}
+</div>
+<div class="section" id="section-2">
+  {{section-two2}}
+</div>
+<div class="section" id="section3">
+  {{section-three}}
+</div>
+
+<div class="section" id="section4">
+  {{section-four}}
+</div>
+
+<!-- <div class="section" id="section5">
+  {{section-five teamsection=model.teamsection}}
+</div> -->
+<!-- <div class="section" id="section6">
+  {{section-six}}
+</div> -->
+
+<div class="section" id="section8">
+  {{section-eight}}
+</div>
+
+<div class="section" id="partner">
+  <div class="intro">
+    <h1>{{t "home.partner.title"}}</h1>
+    <p class="desc">{{t "home.partner.desc"}}</p>
+  </div>
+  <div class="row partners">
+    {{#each model.partners as |p|}}
+    <div class="col-md-3 col-xs-6">
+      <a href="{{p.link}}">
+        <img alt="{{p.description}}" title="{{p.description}}" src="{{p.logo}}" style="{{p.style}}" class="img-responsive" />
+      </a>
+    </div>
+    {{/each}}
+  </div>
+
+  {{ebc-footer}}
+</div>
+{{/full-page}}

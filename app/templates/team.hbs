@@ -1,0 +1,46 @@
+<div class="teambody">
+	<h4 class="text-center">亿书大门永远为那些技术过硬、责任心强的小伙伴敞开，欢迎您加入！</h4>
+	<h4 class="text-center">联系邮箱：<a href="mailto:upport@ebookchain.org">support@ebookchain.org</a></h4>
+	 {{#each model.teams as |t|}}
+	 	<div class="line"></div>
+	 	<div class="m-block">
+	 		{{#if t.id_odd}}
+				<div class="m-pic m-pic-left">
+		            <img src="{{t.pic}}" alt="{{t.name}}">
+		        </div>
+				<div class="m-text">				
+		 			<div class="m-title">
+		 				<h3>{{t.name}}</h3>
+		 				<em>{{t.title}}</em>
+		 			</div>
+		 			<div class="m-desc">
+		 				<p>{{t.desc}}</p>
+		 			</div>
+		 			<div class="m-link">
+		 				<p><em>&mdash;&mdash;&mdash; 亿书，改变人类知识创作、存储与分享的方式</em></p>
+		 			</div>
+		 		</div>		 			
+	 		{{else}}
+				<div class="m-pic m-pic-right">
+		            <img src="{{t.pic}}" alt="{{t.name}}">
+		        </div>
+				<div class="m-text">
+		 			<div class="m-title">
+		 				<h3>{{t.name}}</h3>
+		 				<em>{{t.title}}</em>
+		 			</div>
+		 			<div class="m-desc">
+		 				<p>{{t.desc}}</p>
+		 			</div>
+		 			<div class="m-link">
+		 				<p><em>&mdash;&mdash;&mdash; 亿书，改变人类知识创作、存储与分享的方式</em></p>
+		 			</div>
+	 			</div>
+	 		{{/if}}
+		</div>	 	
+	 {{/each}}
+
+
+</div>
+
+{{ebc-footer}}
