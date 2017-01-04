@@ -68,9 +68,9 @@ Team.reopenClass({
         },
         {
             id: 9,
-            name: "朱树举",
+            name: "tree",
             title: "OD",
-            pic: "/images/team/team8.jpg",
+            pic: "/images/team/team.jpg",
             desc: "网名Tree，35岁，兼职做亿书运营和推广工作。比特币早期投资爱好者，13年中旬进入币圈，曾创立和参与过多个区块链项目，多年的股票股权投资经验，现作为比特币区块链天使投资人，已深耕布局区块链产业链。"
         },
         {
@@ -87,13 +87,6 @@ Team.reopenClass({
             title: "Developer",
             pic: "/images/team/team.jpg",
             desc: "36岁，河北保定，一直从事C++及视频相关的工作，在C++方面具有多年丰富的开发经验，对区块链技术方面都有比较深入的研究，在做亿书性能优化和侧链研发方面研究和探索。"
-        },
-        {
-            id: 12,
-            name: "Elikong",
-            title: "Developer",
-            pic: "/images/team/team.jpg",
-            desc: "42岁，在职研究生，一个始终坚守技术开发的老兵，在c和c++开发方面已有16年开发经验，在 Android开发方面有6年经验，浏览器相关软件开发也是有10年以上的开发经验，主要专注在亿书区块链浏览器、客户端、分布式存储等方面的设计和研发。"
         }
     ]
 });
