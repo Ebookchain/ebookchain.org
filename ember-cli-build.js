@@ -13,8 +13,8 @@ module.exports = function(defaults) {
   // app.import("vendor/materialize/js/materialize.js");
   app.import("bower_components/bootstrap/dist/js/bootstrap.js");
   // app.import("vendor/materialize/js/materialize.js");
-  //app.import("vendor/particles.js");
-  app.import("vendor/particleground.js");
+  app.import("vendor/particles.js");
+  //app.import("vendor/particleground.js");
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
