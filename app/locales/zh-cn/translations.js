@@ -113,12 +113,19 @@ export default {
     },
 
     footer: {
+        doc: "文档",
+        resource: "资源链接",
+        contact: "联系",
+        ebook: "node.js区块链开发",
         ebookchain: "亿书官网",
         ebookcoin: "亿书",
+        club: "区块链俱乐部",
         social_media: "社交媒体",
+        weibo: "微博",
         qqgroup: "官方QQ群：",
         qq: "ebookchain-官方QQ群：185046161",
-        weixin: "ebookchain-官方微信群"
+        weixin: "ebookchain-官方微信群",
+        email: "邮箱"
     }
 
 };

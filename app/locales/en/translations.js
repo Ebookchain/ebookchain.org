@@ -119,6 +119,13 @@ export default {
         social_media: "Social Media",
         qqgroup: "QQ Group : ",
         qq: "ebookchain-官方QQ群：185046161",
-        weixin: "ebookchain-官方微信群"
+        weixin: "ebookchain-官方微信群",
+        club: "Ebookchain Club",
+        doc: "Documents",
+        resource: "Resources",
+        contact: "Contact",
+        ebook: "online book",
+        weibo: "Weibo",
+        email: "Email"
     }
 };
