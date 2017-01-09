@@ -11,7 +11,7 @@ export default {
 
     header: {
         nav: {
-            ebookchain: "ebookchain",
+            ebookchain: "Ebookchain",
             home: "Home",
             blog: "Blog",
             club: "Club",
@@ -36,9 +36,10 @@ export default {
             ebc: '<span id="watching-{{id}}"> {{count}} </span> EBOOKCOIN'
         },
         section0: {
-            title: "Writing / collaboration is so simple",
-            desc: "To give knowledge a price tag, make writing more simple and convenient.",
+            title: "Writing / Collaboration is so simple",
+            desc: "Giving knowledge price, making write simple.",
             author: "Author",
+            ebookchain: "Ebookchain",
             reader: "Reader",
             "author-desc": "The copyright information of article content will be written into Blockchain automatically, and make blog/ebook/self-publish and so on reality.",
             "ebookchain-desc": "Ebookchain P2P network, building an copyright protection protocol, providing functions such as token(EBC) payment/decentralized storage.",
@@ -75,16 +76,16 @@ export default {
         },
         opensource: {
             title: "Ebookchain is a fully open source product",
-            desc: "Everything we do is open source, so you can theme, extend and integrate to your heart’s content. Developers welcome.",
+            desc: "Everything we do is open source, so you can clone, extend and integrate to your own content. Welcome developers join us.",
             developers: "Developers",
-            technique: "The first book detailing the blockchain development with source code. It is a cookbook combined with real blockchain project. It could be the refference of product developing.",
-            "btcnodejs-book-link": "ebook",
-            sourcecode: "ebookcoin"
+            technique: "The first book detailing the blockchain development with source code. It is a cookbook combined with real blockchain project. It can be the reference documentation for product development.",
+            "btcnodejs-book-link": "Ebook",
+            sourcecode: "Ebookcoin"
 
         },
         section4: {
             title: "Ebookchain, make your creation traceable",
-            desc: "Three layer of protecting copyright in ebookchain",
+            desc: "Three layer of copyright protection in ebookchain",
             record: "Recording the whole period of creation",
             "record-desc": "Through ebookchain client software, recording the whole process of the content creation ,connecting all the single time stamp into time period",
             tracing: "Tracing the whole process",
@@ -93,15 +94,15 @@ export default {
             "community-desc": "Ebookchain based on smart contract, all the Rules of rewards and punishment though token, encouraging people report and feedback, make authorize become people’s conscious behavior, make the pirate behavior no place to hide.",
         },
         section8: {
-            title: " DPoS mechanism improvement in Ebookchain",
-            desc: "DPoS is the most safe, environmental friendly and efficient consensus mechanism. Combining Ebookchain’s characteristics, we come up with four improved innovation.",
+            title: " Enhanced DPoS mechanism in Ebookchain",
+            desc: "Combining with Ebookchain’s characteristics, we come up with four improved innovations based on DPoS.",
             circuit: "Circuit-Breaker",
             "circuit-desc": "Adding dissenting vote feature. It will trigger Circuit-Breaker when the dissenting vote percentage of a node reach an certain number, and the certain delegate node will be enforced to degrade.",
             cridit: "Reputation System",
             "cridit-desc": "Ebookchain encourage active interaction between nodes and customers, the good feedback and comments will accumulate the credit of delegate node. It will help community select good delegate nodes.",
             scaling: "Scalability",
             "scaling-desc": "The 101 delegates is a relative rational number, we'll optimize algorithm and improve the network select function, encourage the decentralized developer/publisher build their own node to provide better service for customers.",
-            realname: "Real Name Authentication",
+            realname: "Identity Authentication",
             "realname-desc": "Anonymous and safety are the process of balancing. Ebookchain will provide open/transparent service, encourage delegate nodes provide real-name authentication, offer relative information and accept public supervision to get a widely recognized.",
         },
         team: {
@@ -109,7 +110,7 @@ export default {
         },
         partner: {
             title: "Partnerships",
-            desc: "Join some of the world's most important organisations who powered by Ebookchain."
+            desc: "some of the world's most important organisations who powered by Ebookchain."
         }
     },
 
@@ -118,13 +119,13 @@ export default {
         ebookcoin: "Ebookcoin",
         social_media: "Social Media",
         qqgroup: "QQ Group : ",
-        qq: "ebookchain-官方QQ群：185046161",
-        weixin: "ebookchain-官方微信群",
+        qq: "Ebookchain-官方QQ群：185046161",
+        weixin: "Ebookchain-官方微信群",
         club: "Ebookchain Club",
         doc: "Documents",
         resource: "Resources",
         contact: "Contact",
-        ebook: "online book",
+        ebook: "Online Devlepment documentation",
         weibo: "Weibo",
         email: "Email"
     }

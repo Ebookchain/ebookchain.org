@@ -41,6 +41,7 @@ export default {
             desc: "给知识明码标价，让写作简单便捷。",
             author: "作者",
             reader: "读者",
+            ebookchain: "亿书",
             "author-desc": "作者写作内容的版权信息将自动写入区块链中，并实现博客、电子书、自出版等功能",
             "ebookchain-desc": "亿书P2P网络，构建了版权保护协议，提供了代币(EBC)支付、分布式存储等功能",
             "reader-desc": "读者可以使用代币(EBC)购买、分享、评论和反馈阅读内容，并从中获得知识，甚至奖励",

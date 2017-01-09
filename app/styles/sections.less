@@ -129,7 +129,8 @@ section-seven   carousel 幻灯片section
 	.book {
 	  position: absolute;
 	  box-sizing: border-box;
-	  padding: 0.8rem 6rem 0.8rem 4rem;
+    width: 15rem;
+	  padding: 0.8rem 2rem 0.8rem 2rem;
     font-size: 1.5rem;
 	  border-radius: 0.25rem;
 	  background-color:#607d8b /*rgba(255, 255, 255, 0.1)*/;
@@ -314,69 +315,8 @@ section-seven   carousel 幻灯片section
 
 
 /*section-two  写作/协作就是这么简单*/
+
 #section2 {
-
-	.fp-tableCell{
-	        background-color: #f4f6f7;
-    }
-    h1 {
-        color: #009ee3;
-        @media (max-width: 480px) {
-            font-size: 2em;
-        }
-    }
-    p {
-        color: #009ee3;
-        margin-top: 20px;
-        margin-bottom: 50px;
-        @media (max-width: 480px) {
-            margin-top: 18px;
-        }
-    }
-    img {
-        max-height: 400px;
-    }
-    @media (max-width: 480px) {
-             .service-item{
-                display: none;
-             }
-        }
-    .service-icon {
-        display: none;
-
-    }
-    .service-item{
-        border: 3px solid #ccc;
-        width: 120px;
-        height: 120px;
-
-        -webkit-transform: rotate(45deg);
-           -moz-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-             -o-transform: rotate(45deg);
-                transform: rotate(45deg);
-    }
-    .service-item:hover {
-        border: 3px solid #009ee3;
-        color: #009ee3;
-    }
-
-    h3,.service-icon{
-        -webkit-transform: rotate(-45deg);
-           -moz-transform: rotate(-45deg);
-            -ms-transform: rotate(-45deg);
-             -o-transform: rotate(-45deg);
-                transform: rotate(-45deg);
-    }
-
-    .service-item h3 {
-        font-size: 20px;
-        text-transform: uppercase;
-    }
-    
-}
-
-#section-2 {
   .fp-tableCell{
           background-color: #f4f6f7;
     }
@@ -438,6 +378,88 @@ section-seven   carousel 幻灯片section
         font-size: 20px;
         text-transform: uppercase;
     }
+
+    @-webkit-keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+      }
+
+      to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+      }
+
+      to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+
+    .fadeInLeft {
+      -webkit-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+    }
+
+    @-webkit-keyframes fadeInRight {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+      }
+
+      to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+      }
+
+      to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+
+    .fadeInRight {
+      -webkit-animation-name: fadeInRight;
+      animation-name: fadeInRight;
+    }
+
+    .animated {
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+
+    .animated.infinite {
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+
+/*    .animate-box{
+      opacity: 0;
+    }*/
     
 }
 /*section-two  end*/
