@@ -23,6 +23,7 @@ export default {
             products: "Products",
             team: "Team",
             tpc: "TPC",
+            download: "Download",
             whitepaper: "Whitepaper",
             greenpaper: "Greenpaper",
             business:"Business-eco"

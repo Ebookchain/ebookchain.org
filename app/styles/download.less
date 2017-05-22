@@ -1,0 +1,127 @@
+.download-wrap{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	.icon-btn{
+		padding: 6px;
+		margin: 6px;
+	}
+}
+
+.container-wrap:before, .container-wrap:after {
+	display:table;
+	content:'';
+}
+.container-wrap:after { clear:both; }
+	.container-wrap .col-txt {
+		min-height:500px;
+		padding-top:140px;
+	}
+	.container-wrap .col-pull-left, .container-wrap .col-pull-right {
+		float:left;
+		width:50%;
+		padding-right:15px;
+		margin-top:-400px;
+	}
+	.container-wrap .col-pull-right {
+		float:right;
+		padding:0px 0px 0px 15px;
+	}
+.header-bg {
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	background:#2863f9 no-repeat top center;
+	background-size:cover;
+	z-index:-2;
+}
+.header-bg-overlay {
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	background:transparent url(../images/bg-header-overlay.png) no-repeat top center;
+	background-size:cover;
+	z-index:-1;
+	-webkit-transition:background .3s ease;
+	transition:background .3s ease;
+}
+.header-txt {
+	font-size:16px;
+	line-height:26px;
+	min-height:0px;
+	padding-top:0px;
+	color: #fff;
+}
+
+.header-btn {
+	padding:30px 0px 50px;
+	margin:0px;
+	.btn-custom {
+		margin-right:10px;
+		margin-left:10px;
+		.btn-border{
+			color:#FFF !important;
+			background-color:transparent;			
+		}
+		.btn-icon {
+			position:relative;
+			padding-left:60px;
+			.ion {
+				position:absolute;
+				top:0px;
+				left:10px;
+				width:50px;
+				font-size:24px;
+				line-height:50px;
+				text-align:center;
+			}
+		}
+		.btn-icon-after {
+			padding-right:60px;
+			padding-left:30px;
+			.ion {
+				right:10px;
+				left:auto;
+			}
+		}		
+	}
+	.btn-custom:hover {
+		color:#2863f9 !important;
+		background-color:#d8e1fa;
+		border-color:#d8e1fa;
+	}
+}
+
+.img-layers { position:relative; }
+	.img-layers img { width:90%; }
+	.img-layers .img-layer-left, .img-layers .img-layer-right {
+		position:relative;
+		z-index:100;
+	}
+	.img-layers.img-layer-left-front .img-layer-right { padding-left:32%; }
+	.img-layers.img-layer-right-front .img-layer-left { padding-right:32%; }
+	.img-layers.img-layer-left-front .img-layer-left, .img-layers.img-layer-right-front .img-layer-right {
+		position:absolute;
+		right:32%;
+		bottom:0px;
+		left:0px;
+		z-index:110;
+	}
+	.img-layers.img-layer-right-front .img-layer-right {
+		right:0px;
+		left:32%;
+	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.text-center-sm { text-align:center; }
+	.text-center-xs { text-align:center; }
+	.margin-bottom40-sm {margin-bottom: 40px }
+	.margin-bottom40-xs {margin-bottom: 40px }
+}
