@@ -27,6 +27,7 @@ export default {
             whitepaper: "白皮书",
             greenpaper: "绿皮书",
             business:"商业生态",
+            ico: "ICO细则"
         }
     },
 

@@ -26,7 +26,8 @@ export default {
             download: "Download",
             whitepaper: "Whitepaper",
             greenpaper: "Greenpaper",
-            business:"Business-eco"
+            business:"Business-eco",
+            ico: "ICO"
         }
     },
 
