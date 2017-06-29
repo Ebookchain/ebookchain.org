@@ -8,15 +8,100 @@ section-six     团队卡片
 section-seven   carousel 幻灯片section
 */
 
+/*section-ico */ 
+#section1{
+  .banner{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: url(/images/bg.png) no-repeat top center;
+    background-size: cover;
+  }
+  .icocontainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .circle{
+    width:100%;
+    height:100%; 
+    background: url(/images/circle.png) no-repeat center center;
+    background-size: contain;
+    -webkit-animation:mymove 5s infinite linear;
+    animation:mymove 5s infinite linear;  
+  }
+  @keyframes mymove{
+    from {
+      transform: rotate(0deg)
+      }
+    to {
+      transform: rotate(360deg)
+      }
+  }
+  .content{
+    width:438px;
+    height:320px;
+    position: absolute;
+    top:50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .word{
+    width: 438px;
+    height: 234px;
+    margin-top: 20px;
+    background:url(/images/word.png) no-repeat top center;
+    background-size:75% 75%;
+  }
+  .btn{
+    width:200px;
+    height:66px;
+    line-height: 66px;
+    text-align: center;
+    font-size:28px;
+    margin-left:20px;
+    background:url(/images/btn.png) no-repeat ;
+    background-size: 100% 100%;
+  }
+  .btn a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .time{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    color:#fff;
+    font-size: 20px;
+  }
+  .start,.over,.timeline{
+    float:left;
+  }
+  .timeline{
+    width:40px;
+    height:1px;
+    background-color:white;
+    margin-top:15px;
+    margin-left:13px;
+    margin-right:13px;
+  }
+}
+/*section-ico  end*/ 
+
+
 /*section-one  粒子背景+书柜particle-bg + bookstore*/
-#particles-js{
+/*#particles-js{
   width: 100%;
   height: 100%;
   position: absolute;
   top:0;
   left:0;
-}
+}*/
 
+/*
 #section1 {
   //height: 800px;
   //background-color: #4f7f9b;
@@ -133,7 +218,7 @@ section-seven   carousel 幻灯片section
 	  padding: 0.8rem 2rem 0.8rem 2rem;
     font-size: 1.5rem;
 	  border-radius: 0.25rem;
-	  background-color:#607d8b /*rgba(255, 255, 255, 0.1)*/;
+	  background-color:#607d8b ;
 	  color: white;
 	  text-transform: uppercase;
 	  letter-spacing: 0.1rem;
@@ -310,7 +395,7 @@ section-seven   carousel 幻灯片section
 	.vivus{
 		margin-top: 3rem;
 	}
-}
+} */
 /*section-one  end*/
 
 
