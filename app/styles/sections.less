@@ -51,7 +51,7 @@ section-seven   carousel 幻灯片section
       transform: translate(-50%,-50%);
   }
   .word{
-    width: 438px;
+    width: 418px;
     height: 234px;
     margin-top: 20px;
     background:url(/images/word.png) no-repeat top center;
@@ -63,13 +63,19 @@ section-seven   carousel 幻灯片section
     line-height: 52px;
     text-align: center;
     font-size:28px;
-    margin-left:20px;
     background:url(/images/btn.png) no-repeat ;
     background-size: 100% 100%;
   }
   .btn a{
     text-decoration: none;
     color: #fff;
+  }
+  .detail{
+    margin: 10px
+  }
+  .detail a{
+    color: #FF9800;
+    font-size: 16px;
   }
   .time{
     position: absolute;
@@ -89,6 +95,16 @@ section-seven   carousel 幻灯片section
     margin-top:15px;
     margin-left:13px;
     margin-right:13px;
+  }
+  @media (max-width: 480px) {
+      .word{
+          width: 394px;
+          height: 210px;
+      }
+      .time{
+        position: absolute;
+
+      }
   }
 }
 /*section-ico  end*/ 
