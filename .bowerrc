@@ -2,7 +2,5 @@
   "directory": "bower_components",
   "analytics": false,
   "interactive": false,
-  "proxy":       "http://10.22.32.29:8080",
-  "https-proxy": "http://10.22.32.29:8080",
   "strict-ssl":  false
 }
